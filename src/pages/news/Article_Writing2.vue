@@ -1,9 +1,9 @@
 <template>
-  <div class="card  mt-5" style="background-color: #828282; border-radius: 0%;  height:858px; overflow: hidden;">
+  <div class="card  mt-5" style="border-radius: 0%;  height:100%; overflow: hidden;">
     <div class="row">
       <div class="col-lg-12 ">
 
-        <div class="card-header" style="height:120px;">
+        <div class="card-header aheader" style="height:120px; background-color: #828282; ">
           <div class="row text-sm">
             <div class="col-lg-12 scrollable-div">
               <div class="form-group">
@@ -149,10 +149,7 @@
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                         <label class="form-check-label" for="inlineCheckbox2">자막템플릿 미리보기</label>&ensp;&ensp;&ensp;
 
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                          <label class="form-check-label" for="inlineCheckbox3">실시간 맞춤법 검사</label>
-                        </div>
+
                       </div>
                     </div>
                   </div>
@@ -174,14 +171,14 @@
           </div>
         </div>
 
-        <div class="row" style="height:65px; background-color: #cccccc;">
+        <div class="row" style="height:40px; background-color: #cccccc;">
           <div class="col-lg-12 mt-1 scrollable-div">
             <div class="form-group">
               <div class="row mx-4 justify-content-start">
                 <div class="col-12 ">
                   <div class="button-group">
                     <button class="btn btn-danger btn-sm mr-2 mb-2">
-                      기사작성
+                      긴급
                     </button>
                     <button class="btn btn-info btn-sm mr-2 mb-2">
                       기사작성
@@ -205,27 +202,69 @@
                     </button>
 
 
-                    <button class="btn btn-info btn-sm mr-2 mb-2">
-                      Anc
-                    </button>
-                    <button class="btn btn-info btn-sm mr-2 mb-2">
-                      Rep
+                    <button class="btn btn-primary btn-sm mr-2 mb-2 " data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="F1">
+                      수퍼
                     </button>
 
-                    <button class="btn btn-info btn-sm mr-4 mb-2">
+                    <button class="btn btn-danger btn-sm mr-2 mb-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="F2">
+                      앵커
+                    </button>
+
+                    <button class="btn btn-danger btn-sm mr-2 mb-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="F3">
                       리포트
                     </button>
 
+                    <button class="btn btn-success btn-sm mr-2 mb-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="F4">
+                      StandUp
+                    </button>
 
+                    <button class="btn btn-success btn-sm mr-2 mb-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="F5">
+                      전화
+                    </button>
 
-                    <router-link to="/Article_management"><button class="btn btn-info btn-sm mr-2 mb-2 "
-                        style="height:30px; padding:0; padding-top: 1px;">
-                        <img src="../../components/image/screen4.png">
-                      </button></router-link>
-                    <router-link to="/Article_management1"><button class="btn btn-info btn-sm mr-2 mb-2"
+                    <button class="btn btn-success btn-sm mr-2 mb-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="F6">
+                      자막CG
+                    </button>
+
+                    <button class="btn btn-success btn-sm mr-2 mb-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="F7">
+                      인터뷰
+                    </button>
+
+                    <button class="btn btn-success btn-sm mr-2 mb-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="F8">
+                      이펙트
+                    </button>
+
+                    <button class="btn btn-success btn-sm mr-2 mb-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="F9">
+                      싱크
+                    </button>
+
+                    <button class="btn btn-primary btn-sm mr-2 mb-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="F10">
+                      CG
+                    </button>
+
+                    <button class="btn btn-success btn-sm mr-4 mb-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="F11">
+                      RG
+                    </button>
+
+                    <router-link to="/Article_Writing"><button class="btn btn-info btn-sm mr-2 mb-2 "
                         style="height:30px; padding:0; padding-top: 1px;">
                         <img src="../../components/image/screen2.png">
                       </button></router-link>
+                    <router-link to="/Article_Writing2"><button class="btn btn-info btn-sm mr-2 mb-2"
+                        style="height:30px; padding:0; padding-top: 1px;">
+                        <img src="../../components/image/screen3.png">
+                      </button></router-link>
 
 
                   </div>
@@ -233,102 +272,176 @@
 
               </div>
             </div>
-          </div>
-
-
-
-          <div class="card mt-n3">
-            <div class="row ">
-              <div class="col-lg-7 ">
-                <div class="row ml-1">
-                  <div class="input-group     ">
-                    <input type="text" class="form-control form-control-sm " placeholder="배곱"
-                      aria-describedby="basic-addon2" style="height:750px; width:20px;">
-                    <input type="text" class="form-control form-control-sm " placeholder="신지홍"
-                      aria-describedby="basic-addon2" style="height:750px; width:20px;">
-                    <input type="text" class="form-control form-control-sm " placeholder="(베이징=연합뉴스) 신지홍 박성민 기자 
-                            = 중국 국빈방문 이틀째를 맞은 박근혜 
-                            대통령은 28일 오전 수행 경제사절단과 
-                            조찬을 함께 하며 경제외교에 시동을 걸었다." aria-describedby="basic-addon2"
-                      style="height:750px; width:110px;">
-
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-5 ml-n1">
-                <div class="card " style="height:750px;">
-                  <div class="row text-sm mx-1">
-
-                    <!-- /.card-header -->
-
-                    <div class="col-lg-12">
-                      <div class="form-group mt-2 ">
-                        <div class="col-lg-12 mb-2 mt-3">
-                          <router-link to="/Article_management1"><button type="submit"
-                              class="btn btn-sm btn-primary "><i
-                                class="fa-sharp-duotone fa-solid fa-comment"></i>&ensp;SNS</button></router-link>
-                          <router-link to="/Article_management2"><button type="submit"
-                              class="btn btn-sm btn-outline-secondary"><i
-                                class="fa-solid fa-file-video"></i>&ensp;영상그래픽</button></router-link>
-                          <router-link to="/Article_management3"><button type="submit"
-                              class="btn btn-sm btn-outline-secondary"><i
-                                class="fa-solid fa-clipboard-question"></i>&ensp;의뢰상태</button></router-link>
-                          <router-link to="/Article_management4"><button type="submit"
-                              class="btn btn-sm btn-outline-secondary"><i
-                                class="fa-sharp-duotone fa-solid fa-paperclip"></i>&ensp;첨부</button></router-link>
-
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row d-flex justify-content-center">
-                    <div class="col-lg-6 mt-n2">
-
-                      <div class="ratio ratio-16x9">
-                        <video controls>
-                          <source src="" type="video/mp4">
-                        </video>
-                      </div>
-
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-
-
-
           </div>
         </div>
+
+
+        <div class="card-body p-0 ">
+          <div class="row  gx-1">
+            <div class="col-lg-6 ">
+
+              <ag-grid-vue :columnDefs="columnDefs" :modules="modules" :rowData="rowData" :groupHeaders="true"
+                :defaultColDef="defaultColDef" @cellClicked="onCellClicked" :headerHeight="28" :rowHeight="35"
+                class="ag-theme-alpine" style="flex: 1 1 auto; height: 610px; " @grid-ready="onGridReady">
+
+              </ag-grid-vue>
+              <div class="nav text-sm " style="display:flex; justify-content: center; ">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
+
+            <div class="col-lg-3  ml-n2 mt-2">
+              <div class="input-group ">
+                <textarea class="form-control form-control-sm mt-n2 " placeholder="{앵커:  겨울철 생선인 대구의 계절이 돌아왔지만, 올해는 어획량이 급감했습니다.}
+{리포트}
+{수퍼:  거제 대구 어획량 급감/오늘(5)경남 거제 앞바다}" id="floatingTextarea" rows="29"></textarea>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="col-lg-3 ml-n1">
+              <div class="card " style="height:620px;">
+                <div class="row text-sm mx-1">
+
+                  <!-- /.card-header -->
+
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2 ">
+                      <div class="col-lg-12 mb-2 mt-3">
+                        <router-link to="/Article_Writing2"><button type="submit" class="btn btn-sm btn-primary "><i
+                              class="fa-sharp-duotone fa-solid fa-comment"></i>&ensp;SNS</button></router-link>
+                        <router-link to="/Article_Writing2"><button type="submit"
+                            class="btn btn-sm btn-outline-secondary"><i
+                              class="fa-solid fa-file-video"></i>&ensp;영상그래픽</button></router-link>
+                        <router-link to="/Article_Writing2"><button type="submit"
+                            class="btn btn-sm btn-outline-secondary"><i
+                              class="fa-solid fa-clipboard-question"></i>&ensp;의뢰상태</button></router-link>
+                        <router-link to="/Article_Writing2"><button type="submit"
+                            class="btn btn-sm btn-outline-secondary"><i
+                              class="fa-sharp-duotone fa-solid fa-paperclip"></i>&ensp;첨부</button></router-link>
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                  <div class="col-lg-6 mt-n2">
+
+                    <div class="ratio ratio-16x9">
+                      <video controls>
+                        <source src="" type="video/mp4">
+                      </video>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="mx-3">
+          <span class="badge badge-secondary mr-3">F1:수퍼</span>
+          <span class="badge badge-secondary mr-3">F2:앵커</span>
+          <span class="badge badge-secondary mr-3"> F3:리포트</span>
+          <span class="badge badge-secondary mr-3">F4:StandUp</span>
+          <span class="badge badge-secondary mr-3">F5:전화</span>
+          <span class="badge badge-secondary mr-3">F6:자막CG</span>
+          <span class="badge badge-secondary mr-3">F7:인터뷰</span>
+          <span class="badge badge-secondary mr-3">F8:이펙트</span>
+          <span class="badge badge-secondary mr-3">F9:싱크</span>
+          <span class="badge badge-secondary mr-3">F10:CG</span>
+          <span class="badge badge-secondary mr-3"> F11:RG</span>
+        </div>
+
 
       </div>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
 
+<script>
 
-import { ref } from "vue";
+import { ref } from 'vue';
 import "@ag-grid-community/styles/ag-grid.css";
 import "@ag-grid-community/styles/ag-theme-alpine.css";
+import { ClientSideRowModelModule } from "@ag-grid-community/client-side-row-model";
+import { AgGridVue } from 'ag-grid-vue3';
 
-import { AgGridVue } from "@ag-grid-community/vue3";
+
+
+export default {
+  components: {
+    AgGridVue,
+
+
+  },
+  data() {
+    return {
+
+
+      columnDefs: [
+        { field: "date", headerName: "등록일", cellRenderer: 'CellComponentRenderer', editable: true, cellEditor: 'CellComponentEditor', cellStyle: { textAlign: 'center' }, minWidth: 350, maxWidth: 450, },
+        { field: "sub", headerName: "제목", hide: false, cellRenderer: 'CellComponentRenderer', editable: true, cellEditor: 'CellComponentEditor', minWidth: 500, maxWidth: 650, cellStyle: { fontWeight: 'bold' }, },
+        { field: "time", headerName: "시간", cellRenderer: 'CellComponentRenderer', editable: true, cellEditor: 'CellComponentEditor', cellStyle: { textAlign: 'center' }, maxWidth: 120 },
+        { field: "situation", headerName: "상태", cellRenderer: 'CellComponentRenderer', editable: true, cellEditor: 'CellComponentEditor', cellStyle: { textAlign: 'center' }, maxWidth: 120 },
+        { field: "medium", headerName: "매체", cellRenderer: 'CellComponentRenderer', editable: true, cellEditor: 'CellComponentEditor', cellStyle: { textAlign: 'center' }, maxWidth: 200 },
+
+        // ...
+      ],
+      rowData: [
+        { date: "2025-01-02 12:02:26", sub: "제목을 입력하시오", time: "00:00", situation: "저장", medium: "방송 + 인터넷" },
+        { date: "2025-02-06 12:02:00", sub: "이번달 겨울철새 모레 절정, 방역 강화", time: "00:26", situation: "저장", medium: "방송 + 인터넷" },
+        { date: "2025-03-08 12:02:20", sub: "제목을 입력하시오", time: "00:00", situation: "저장", medium: "방송 + 인터넷" },
+        { date: "2025-04-11 12:02:16", sub: "===8일+9일 아이엠 === 9시 현재", time: "02:00", situation: "저장", medium: "방송 + 인터넷" },
+        { date: "2025-05-28 12:02:23", sub: "공항 주변 새 유인 탐지시설 수두룩", time: "00:10", situation: "저장", medium: "방송 + 인터넷" },
+
+      ]
+    }
+  },
+  methods: {
+    onGridReady(params) {
+      this.gridApi = params.api;
+      this.gridColumnApi = params.columnApi;
+
+    },
+
+    onCellClicked(params) {
+
+
+      console.log('params : ' + JSON.stringify(params.data));
+      // 다른 input에 값 할당
+      this.rinfos = params.data;
+
+
+    }
+  },
+
+
+}
+
+
 
 
 </script>
 
-<style>
-.input-floating {
-  position: relative;
-  top: -40px;
-  left: 200px;
 
 
-}
-</style>
+<style></style>

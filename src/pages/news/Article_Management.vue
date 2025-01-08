@@ -252,7 +252,7 @@
             <div class="col-lg-12 ">
               <ag-grid-vue :columnDefs="columnDefs" :modules="modules" :rowData="rowData" :groupHeaders="true"
                 :defaultColDef="defaultColDef" :headerHeight="28" :rowHeight="35" class="ag-theme-alpine"
-                style="flex: 1 1 auto; height: 680px; ">
+                style="flex: 1 1 auto; height: 660px; ">
               </ag-grid-vue>
 
               <div class="nav text-sm " style="display:flex; justify-content: center; ">
@@ -338,7 +338,7 @@ export default {
           Author: "정홍기", edate: "23-06-10 13:30:00", modifier: "정홍기", broad: "0", sns: "N"
         },
         {
-          no: 3, menu: "", sub: "하늘에서 본 적조 피해", app: "", division: "리포트", issue: "정치부", depart: "정상호", form: "리포트", reporter: "정호두", video: "", graphics: "", sdate: "12-06-19 12:00:00",
+          no: 3, menu: "", sub: "'동병상련' 바이든-시 고별회담…트럼프에 하고픈 말 쏟아냈다", app: "", division: "리포트", issue: "정치부", depart: "정상호", form: "리포트", reporter: "정호두", video: "", graphics: "", sdate: "12-06-19 12:00:00",
           Author: "정상호", edate: "23-06-10 13:30:00", modifier: "정상호", broad: "0", sns: "N"
         },
 

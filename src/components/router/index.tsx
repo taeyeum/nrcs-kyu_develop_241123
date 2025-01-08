@@ -51,6 +51,7 @@ import {
 
     Article_Service,
     Article_Writing,
+    Article_Writing2,
     Receive_Article,
     Reporter,
     
@@ -79,7 +80,8 @@ import {
     SsnsSite,
     SSnstlog,
     SITmanage,
-    SETmanage,
+  SETmanage,
+    
     
 
 
@@ -305,6 +307,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/Article_Writing",
     name: "Article_Writing",
     component: Article_Writing
+  },
+    {
+    path: "/Article_Writing2",
+    name: "Article_Writing2",
+    component: Article_Writing2
   },
   {
     path: "/Receive_Article",

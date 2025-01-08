@@ -51,6 +51,7 @@ import Article_Management3 from "./news/Article_Management3.vue";
 import Article_Management4 from "./news/Article_Management4.vue";
 import Article_Service from "./news/Article_Service.vue";
 import Article_Writing from "./news/Article_Writing.vue";
+import Article_Writing2 from "./news/Article_Writing2.vue";
 import Receive_Article from "./news/Receive_Article.vue";
 import Reporter from "./news/Reporter.vue";
 
@@ -88,7 +89,7 @@ export {
     ,Cuesheet, Cuesheet2, Cuesheetcreate, Cuesheetcreate1, Cuesheetcreate2, Cuesheetcreate3, Cuesheetcreate4, News, Issue, Content, InterView, InterView2, InterView3, InterView4, Video, Vehicle, Relayvehicle, BroadCast, SubControl, SubCon, General,
     ProgramNotice, Daily, Daily1, Daily2, BasicOrganization, BroadProgram, Advertising, Advertisement, Advertisement2, Advertisement3, Request, Article_Management, Article_Management1,
      Article_Management2, Article_Management3,  Article_Management4, Article_Service, 
-    Article_Writing, Receive_Article, Reporter, Integrated, IntegratedVideo, IntegratedPerson, ArticlSearch, ArticlSearch1, VideoSearch, TapeSearch, CharacterData, Suser, Sgroup, Mprogram, Smanage, UserStat, UStat,
+    Article_Writing, Article_Writing2, Receive_Article, Reporter, Integrated, IntegratedVideo, IntegratedPerson, ArticlSearch, ArticlSearch1, VideoSearch, TapeSearch, CharacterData, Suser, Sgroup, Mprogram, Smanage, UserStat, UStat,
     Tmanage,Tsfmanage ,PatchManage, CodeManage, AFmanage, SsnsSite, SSnstlog, SITmanage, SETmanage
 
     
