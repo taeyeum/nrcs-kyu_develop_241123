@@ -1,0 +1,12 @@
+{
+    "user_id": "admin",
+    "user_nm": "테스트",
+    "stoken": null,
+    "user_ip": null,
+    "sess_id": null,
+    "user_grp_id": null,
+    "loginType": null,
+    "mesg": null,
+    "httpcode": 200,
+    "pgm_ids": null
+}
