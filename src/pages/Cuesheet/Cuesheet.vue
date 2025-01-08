@@ -151,7 +151,7 @@ export default {
       columnDefs: [
         { field: "no", headerName: "", cellRenderer: 'CellComponentRenderer', editable: true, cellEditor: 'CellComponentEditor', cellStyle: { textAlign: 'center' }, maxWidth: 60 },
         { field: "edit", headerName: "편집", cellRenderer: 'CellComponentRenderer', editable: true, cellEditor: 'CellComponentEditor', maxWidth: 120, cellStyle: { fontWeight: 'bold' }, },
-        { field: "program", headerName: "프로그램", cellRenderer: 'CellComponentRenderer', editable: true, cellEditor: 'CellComponentEditor', cellStyle: { textAlign: 'center' }, minWidth: 800, maxWidth: 900 },
+        { field: "program", headerName: "프로그램", cellRenderer: 'CellComponentRenderer', editable: true, cellEditor: 'CellComponentEditor', cellStyle: { textAlign: '' }, minWidth: 800, maxWidth: 900 },
         { field: "date", headerName: "방송일자", cellRenderer: 'CellComponentRenderer', editable: true, cellEditor: 'CellComponentEditor', cellStyle: { textAlign: 'center' }, maxWidth: 200 },
         { field: "stime", headerName: "시작", cellRenderer: 'CellComponentRenderer', editable: true, cellEditor: 'CellComponentEditor', cellStyle: { textAlign: 'center' }, maxWidth: 120 },
         { field: "etime", headerName: "종료", cellRenderer: 'CellComponentRenderer', editable: true, cellEditor: 'CellComponentEditor', cellStyle: { textAlign: 'center' }, maxWidth: 120 },
@@ -164,10 +164,10 @@ export default {
       ],
       rowData: [
         { no: "1", edit: "편집", program: "MS24 (경기, 인천, 주요, 기상)", date: "24-04-20", stime: "17:00:00", etime: "17:20:00", studio: "1 스튜디오", relief: "2부조", article: "0", broadcast: "방송완료", },
-        { no: "2", edit: "편집", program: "MS24 (경기, 인천, 주요, 기상)", date: "24-06-22", stime: "16:00:00", etime: "16:11:00", studio: "2 스튜디오", relief: "2부조", article: "0", broadcast: "방송완료", },
-        { no: "3", edit: "편집", program: "MS24 (경기, 인천, 주요, 기상)", date: "24-07-12", stime: "11:00:00", etime: "11:13:00", studio: "3 스튜디오", relief: "2부조", article: "0", broadcast: "방송완료", },
-        { no: "4", edit: "편집", program: "MS24 (경기, 인천, 주요, 기상)", date: "24-07-20", stime: "16:00:00", etime: "16:17:00", studio: "4 스튜디오", relief: "2부조", article: "0", broadcast: "방송완료", },
-        { no: "5", edit: "편집", program: "MS24 (경기, 인천, 주요, 기상)", date: "24-08-02", stime: "18:00:00", etime: "18:30:00", studio: "5 스튜디오", relief: "2부조", article: "0", broadcast: "방송완료", },
+        { no: "2", edit: "편집", program: "아침날씨 중계", date: "24-06-22", stime: "16:00:00", etime: "16:11:00", studio: "2 스튜디오", relief: "2부조", article: "0", broadcast: "방송완료", },
+        { no: "3", edit: "편집", program: "하늘에서 본 적조 피해", date: "24-07-12", stime: "11:00:00", etime: "11:13:00", studio: "3 스튜디오", relief: "2부조", article: "0", broadcast: "방송완료", },
+        { no: "4", edit: "편집", program: "정치적 개입 여부, sns여부 확인", date: "24-07-20", stime: "16:00:00", etime: "16:17:00", studio: "4 스튜디오", relief: "2부조", article: "0", broadcast: "방송완료", },
+        { no: "5", edit: "편집", program: "화려한 대성이의 외출", date: "24-08-02", stime: "18:00:00", etime: "18:30:00", studio: "5 스튜디오", relief: "2부조", article: "0", broadcast: "방송완료", },
 
       ],
 

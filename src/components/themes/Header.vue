@@ -128,7 +128,8 @@
                   <li><router-link to="/Suser"><a class="dropdown-item" href="#">사용자 관리</a></router-link></li>
                   <li><router-link to="/Sgroup"><a class="dropdown-item" href="#">그룹 관리</a></router-link></li>
                   <li><router-link to="/Mprogram"><a class="dropdown-item" href="#">프로그램권한관리</a></router-link></li>
-                  <li><router-link to=""><a class="dropdown-item" href="#">관리자설정</a></router-link></li>
+                  <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal11">관리자설정</a></li>
                 </ul>
               </li>
               <li><a class="dropdown-item" href="#">시스템모니터링</a>
@@ -196,6 +197,7 @@
     </div>
   </nav>
   <ModalComponent />
+  <ModalComponent2 />
 
 </template>
 
@@ -209,13 +211,13 @@ import { AgGridVue } from 'ag-grid-vue3';
 
 import { useTheme } from "../../stores";
 import ModalComponent from './HeaderPrefer.vue'
-
+import ModalComponent2 from './HeaderAdminSet.vue'
 
 
 export default {
   components: {
-    ModalComponent
-
+    ModalComponent,
+    ModalComponent2
 
   },
 

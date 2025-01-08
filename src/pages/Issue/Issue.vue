@@ -178,7 +178,11 @@ export default {
         // ...
       ],
       rowData: [
-        { select: "", no: "", issue: "정치적 개입 여부, sns여부 확인", Keyword: "국정원", sdate: " 24-06-20 13:21:00", Author: "김해동" },
+        { select: "", no: "1", issue: "정치적 개입 여부, sns여부 확인", Keyword: "국정원", sdate: " 24-06-12 10:21:00", Author: "정하윤" },
+        { select: "", no: "2", issue: "노숙인 축구 월드컵 연습", Keyword: "노숙인", sdate: " 24-06-20 13:11:00", Author: "정보리" },
+        { select: "", no: "3", issue: "화려한 대성이의 외출", Keyword: "외출", sdate: " 24-07-11 13:22:00", Author: "정호두" },
+        { select: "", no: "4", issue: "아침날씨 중계", Keyword: "아침날씨", sdate: " 24-07-20 15:11:00", Author: "정안나" },
+        { select: "", no: "5", issue: "하늘에서 본 적조 피해", Keyword: "적조", sdate: " 24-07-23 13:09:00", Author: "정홍기" },
       ]
     }
   },
