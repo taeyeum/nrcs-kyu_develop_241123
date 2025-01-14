@@ -13,7 +13,7 @@
                   <div class="col-3">
 
                     <div class="input-group">
-                      구분
+                      <label class="mt-1">구분</label>&ensp;
                       <div class="col-6">
                         <select class="form-select form-select-sm" aria-label="Default select example ">
                           <option selected>전체</option>
@@ -25,8 +25,8 @@
 
 
                   <div class="col-7 text-white">
-                    <div class="input-group">
-                      중계예정일&ensp;
+                    <div class="input-group ">
+                      <label class="mt-1">중계예정일</label>&ensp;
                       <div class="row">
                         <div class="col-5">
                           <input type="date" class="form-control form-control-sm  datetimepicker-input "

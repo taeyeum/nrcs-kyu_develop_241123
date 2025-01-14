@@ -10,77 +10,66 @@
 
               <div class="form-group">
                 <div class="row justify-content-start">
-                  <div class="col-4 ">
+                  <div class="col-10">
                     <div class="input-group ">
+                      <label class="mt-1">방송일</label>&ensp;
                       <div class="row">
-                        <div class="col-1">
 
-                          <button class="btn btn-info btn-sm ">
-                            <i class="fa-solid fa-chevron-left"></i>
-                          </button>
-                        </div>
-                      </div>&ensp;
-                      <label style=" margin-top: 3px; ">방송일</label>&ensp;
-                      <div class="row">
-                        <div class="col-8">
-
+                        <div class="col-3">
                           <input type="date" class="form-control form-control-sm datetimepicker-input"
                             data-target="#reservationdate" />
                         </div>
-                        <div class="col-2 ml-n2">
-                          <button class="btn btn-info btn-sm ">
-                            <i class="fa-solid fa-greater-than"></i>
-                          </button>
+
+
+
+                        <div class="col-4 ">
+                          <div class="form-check-inline align-middle">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              전체
+                            </label>&ensp;&ensp;
+
+                            <div class="form-check-inline">
+                              <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault2" checked>
+                              <label class="form-check-label" for="flexRadioDefault2">
+                                편성
+                              </label>&ensp;&ensp;
+
+                              <div class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                  id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  미편성
+                                </label>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+
+
+                        <div class="col-3">
+                          <div class="input-group">
+                            <input type="text" class="form-control form-control-sm " placeholder=""
+                              aria-describedby="basic-addon2">
+
+                          </div>
+                        </div>
+
+                        <div class="col-1">
+                          <div class="button-group">
+                            <button class="btn btn-info btn-sm mr-2 mb-2">
+                              검색
+                            </button>
+                          </div>
+                        </div>
+
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-3 ">
-                    <div class="form-check-inline align-middle">
-                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                      <label class="form-check-label" for="flexRadioDefault1">
-                        전체
-                      </label>&ensp;&ensp;
 
-                      <div class="form-check-inline">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-                          checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                          편성
-                        </label>&ensp;&ensp;
-
-                        <div class="form-check-inline">
-                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-                            checked>
-                          <label class="form-check-label" for="flexRadioDefault2">
-                            미편성
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="col-2">
-                    <div class="input-group">
-                      <input type="text" class="form-control form-control-sm " placeholder=""
-                        aria-describedby="basic-addon2">
-
-                    </div>
-                  </div>
-                  <div class="col-1">
-                    <div class="button-group">
-                      <button class="btn btn-info btn-sm mr-2 mb-2">
-                        검색
-                      </button>
-                    </div>
-                  </div>
-
-
-
-
-                  <div class="col-2">
+                  <div class="col-2 ">
                     <div class="button-group">
                       <button class="btn btn-info btn-sm mr-2 mb-2">
                         <i class="fas fa-print"></i>
@@ -88,9 +77,6 @@
                       </button>
                     </div>
                   </div>
-
-
-
 
 
                 </div>

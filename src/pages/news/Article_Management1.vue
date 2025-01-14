@@ -6,9 +6,10 @@
 
         <div class="card-header" style="height:90px;">
           <div class="row text-sm">
-            <div class="col-lg-8 scrollable-div">
+            <div class="col-lg-7 scrollable-div">
               <div class="form-group">
                 <div class="row g-3 justify-content-start">
+
                   <div class="col-2 text-white">
                     <div class="form-check-inline">
                       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -34,38 +35,41 @@
                   </div>
 
 
-                  <div class="col-5 ml-5 text-white">
+                  <div class="col-6 ml-5 text-white">
                     <div class="input-group">
                       <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button"
                         data-bs-toggle="dropdown" aria-expanded="false"
                         style="height:30px; color:white; border:1px solid white;">
                         전체
                       </button>&ensp;
-
-                      <input type="date" class="form-control form-control-sm  datetimepicker-input "
-                        data-target="#reservationdate" />&ensp;~&ensp;
-
-
-                      <input type="date" class="form-control form-control-sm datetimepicker-input"
-                        data-target="#reservationdate" />&ensp;
-
+                      <div class="col-4">
+                        <input type="date" class="form-control form-control-sm  datetimepicker-input "
+                          data-target="#reservationdate" />
+                      </div>~
+                      <div class="col-4">
+                        <input type="date" class="form-control form-control-sm datetimepicker-input"
+                          data-target="#reservationdate" />&ensp;
+                      </div>
 
 
 
                     </div>
                   </div>
 
-                  <div class="col-3 ml-5 ">
+                  <div class="col-3">
                     <div class="input-group">
 
-                      <input type="text" class="form-control form-control-sm" placeholder=""
-                        aria-describedby="basic-addon2" style="width:120px;"> &ensp;
-
-                      <button class="btn btn-info btn-sm mr-2 mb-2">
-                        검색
-                      </button>
-
-
+                      <div class="row">
+                        <div class="col-6">
+                          <input type="text" class="form-control form-control-sm datetimepicker-input"
+                            data-target="#reservationdate" />
+                        </div>
+                        <div class="col-2">
+                          <button class="btn btn-info btn-sm mr-2 mb-2">
+                            검색
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -75,13 +79,14 @@
             </div>
           </div>
 
-          <div class="row mt-n3 " style="font-size:14px;">
-            <div class="col-lg-8 scrollable-div">
+
+          <div class="row mt-n4 text-sm">
+            <div class="col-lg-7 scrollable-div mt-n1">
               <div class="form-group">
                 <div class="row justify-content-start">
 
                   <div class="col-2 text-white ">
-                    <div class="input-group">
+                    <div class="input-group align-items-center">
                       구분&ensp;
                       <div class="row">
                         <div class="col-12">
@@ -94,7 +99,7 @@
                     </div>
                   </div>
                   <div class="col-2 text-white">
-                    <div class="input-group">
+                    <div class="input-group align-items-center">
                       형식&ensp;
                       <div class="row">
                         <div class="col-12">
@@ -108,7 +113,7 @@
                   </div>
 
                   <div class="col-2 text-white">
-                    <div class="input-group">
+                    <div class="input-group align-items-center">
                       부서&ensp;
                       <div class="row">
                         <div class="col-12">
@@ -122,7 +127,7 @@
                   </div>
 
                   <div class="col-2 text-white">
-                    <div class="input-group">
+                    <div class="input-group align-items-center">
                       분야&ensp;
                       <div class="row">
                         <div class="col-12">
@@ -139,7 +144,7 @@
 
                   <div class="col-3 text-white">
 
-                    <div class="input-group">
+                    <div class="input-group align-items-center">
                       SNS&ensp;
                       <div class="row">
                         <div class="col-12">
@@ -155,13 +160,9 @@
                   </div>
 
                   <div class="col-1">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
-                        style="width:20px; height:20px;">
-                      &ensp;
-                      <label class="form-check-label" for="flexCheckDefault" style="color:white;">
-                        삭제데이터
-                      </label>
+                    <div class="form-check form-check-inline text-white">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                      <label class="form-check-label" for="inlineCheckbox3">삭제데이터</label>
                     </div>
                   </div>
 

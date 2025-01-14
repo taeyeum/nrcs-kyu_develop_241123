@@ -5,7 +5,7 @@
 
         <div class="card-header aheader" style="height:90px; background-color: #828282; ">
           <div class="row text-sm">
-            <div class="col-lg-8 scrollable-div">
+            <div class="col-lg-7 scrollable-div">
               <div class="form-group">
                 <div class="row justify-content-start">
 
@@ -79,7 +79,7 @@
           </div>
 
           <div class="row mt-n4 text-sm">
-            <div class="col-lg-8 scrollable-div">
+            <div class="col-lg-7 scrollable-div mt-n1">
               <div class="form-group">
                 <div class="row justify-content-start">
 
@@ -363,10 +363,4 @@ export default {
 
 
 
-<style>
-@media (max-width: 768px) {
-  .aheader {
-    display: none;
-  }
-}
-</style>
+<style></style>

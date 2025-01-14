@@ -10,58 +10,48 @@
 
               <div class="form-group">
                 <div class="row justify-content-start">
-                  <div class="col-4 ">
+                  <div class="col-9">
                     <div class="input-group ">
+                      <label class="mt-1">방송일</label>&ensp;
                       <div class="row">
-                        <div class="col-1">
 
-                          <button class="btn btn-info btn-sm ">
-                            <i class="fa-solid fa-chevron-left"></i>
-                          </button>
-                        </div>
-                      </div>&ensp;
-                      <label style=" margin-top: 3px; ">작성일</label>&ensp;
-                      <div class="row">
-                        <div class="col-8">
-
+                        <div class="col-4">
                           <input type="date" class="form-control form-control-sm datetimepicker-input"
                             data-target="#reservationdate" />
                         </div>
-                        <div class="col-2 ml-n2">
-                          <button class="btn btn-info btn-sm ">
-                            <i class="fa-solid fa-greater-than"></i>
-                          </button>
+
+
+                        <div class="col-4">
+                          <div class="input-group">
+                            <select class="form-select form-select-sm" aria-label="Default select example">
+                              <option selected>정치부</option>
+                            </select>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
 
 
-                  <div class="col-4">
-                    <div class="input-group">
-                      <div class="col-6">
-                        <select class="form-select form-select-sm" aria-label="Default select example">
-                          <option selected>정치부</option>
-                        </select>
-                      </div>
+                        <div class="col-2">
+                          <div class="button-group">
+                            <button class="btn btn-info btn-sm mx-1">
+                              월
+                            </button>
+                            <button class="btn btn-info btn-sm mx-1">
+                              주
+                            </button>
+                            <button class="btn btn-info btn-sm mx-1">
+                              일
+                            </button>
+                          </div>
+                        </div>
 
-                      <div class="button-group">
-                        <button class="btn btn-info btn-sm mx-1">
-                          월
-                        </button>
-                        <button class="btn btn-info btn-sm mx-1">
-                          주
-                        </button>
-                        <button class="btn btn-info btn-sm mx-1">
-                          일
-                        </button>
+
                       </div>
                     </div>
                   </div>
 
 
 
-                  <div class="col-4">
+                  <div class="col-3">
                     <div class="button-group">
                       <button type="button" class="btn btn-info btn-sm  mb-2 mx-1" data-bs-toggle="modal"
                         data-bs-target="#exampleModal"> 신규

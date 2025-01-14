@@ -7,55 +7,60 @@
                 <div class="card-header" style="height:50px; background-color: #828282; ">
                     <div class="row text-sm text-white">
                         <div class="col-lg-12 scrollable-div">
-
                             <div class="form-group">
                                 <div class="row justify-content-start">
-
-                                    <div class="col-3">
-                                        <div class="input-group align-items-center">
-                                            채널&ensp;
+                                    <div class="col-10">
+                                        <div class="input-group ">
+                                            <label class="mt-1">채널</label>&ensp;
                                             <div class="row">
-                                                <div class="col-12">
+
+                                                <div class="col-2">
                                                     <select class="form-select form-select-sm "
                                                         aria-label="Default select example">
                                                         <option selected>MS</option>
 
                                                     </select>
                                                 </div>
+
+
+                                                <div class="col-8 ">
+                                                    <div class="input-group align-items-center">
+                                                        사용자&ensp;
+                                                        <div class="row">
+                                                            <div class="col-5">
+                                                                <input type="text"
+                                                                    class="form-control form-control-sm  datetimepicker-input "
+                                                                    data-target="#reservationdate" />
+                                                            </div>
+
+                                                            <div class="col-1">
+                                                                <button class="btn btn-info btn-sm mx-1">
+                                                                    검색
+                                                                </button>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="col-2 ml-n4">
+                                                    <div class=" form-check form-check-inline text-white">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            id="inlineCheckbox3" value="option3">
+                                                        <label class="form-check-label"
+                                                            for="inlineCheckbox3">삭제데이터</label>
+                                                    </div>
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-5 ml-n5">
-                                        <div class="input-group align-items-center">
-                                            사용자&ensp;
-                                            <div class="row">
-                                                <div class="col-8">
-                                                    <input type="text"
-                                                        class="form-control form-control-sm  datetimepicker-input "
-                                                        data-target="#reservationdate" />
-                                                </div>
 
-                                                <div class="col-1">
-                                                    <button class="btn btn-info btn-sm mx-1">
-                                                        검색
-                                                    </button>
-                                                </div>
-                                            </div>
 
-                                        </div>
-                                    </div>
-
-                                    <div class="col-3 ml-n5">
-                                        <div class=" form-check form-check-inline text-white">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
-                                                value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">삭제데이터</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-1 ml-n5">
-                                        <div class="button-group  ">
+                                    <div class="col-2 ">
+                                        <div class="button-group  float-right">
                                             <button type="button" class="btn btn-info btn-sm mr-2 mb-2"
                                                 data-bs-toggle="modal" data-bs-target="#exampleModal1">
                                                 신규
@@ -100,7 +105,8 @@
                             <div class="nav text-sm " style="display:flex; justify-content: center; ">
                                 <nav aria-label="Page navigation example">
                                     <ul class="pagination">
-                                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">Previous</a>
+                                        </li>
                                         <li class="page-item"><a class="page-link" href="#">1</a></li>
                                         <li class="page-item"><a class="page-link" href="#">2</a></li>
                                         <li class="page-item"><a class="page-link" href="#">3</a></li>
@@ -205,7 +211,8 @@
                                         <div class="form-check form-check-inline ">
                                             <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
                                                 value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">C/S 사용</label>
+                                            <label class="form-check-label" for="inlineCheckbox3">C/S
+                                                사용</label>
 
                                         </div>
                                     </div>
@@ -215,7 +222,8 @@
 
                                             <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
                                                 value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">WEB 사용</label>
+                                            <label class="form-check-label" for="inlineCheckbox3">WEB
+                                                사용</label>
 
 
                                         </div>
@@ -226,7 +234,8 @@
 
                                             <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
                                                 value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">Mobile 사용</label>
+                                            <label class="form-check-label" for="inlineCheckbox3">Mobile
+                                                사용</label>
 
 
                                         </div>
@@ -237,7 +246,8 @@
 
                                             <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
                                                 value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">다음 로그인시 비밀번호
+                                            <label class="form-check-label" for="inlineCheckbox3">다음 로그인시
+                                                비밀번호
                                                 변경</label>
 
 
@@ -249,7 +259,9 @@
 
                                             <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
                                                 value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">다음 로그인시 SMS 인증</label>
+                                            <label class="form-check-label" for="inlineCheckbox3">다음 로그인시
+                                                SMS
+                                                인증</label>
 
 
                                         </div>

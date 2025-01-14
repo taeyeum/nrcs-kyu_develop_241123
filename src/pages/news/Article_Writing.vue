@@ -5,7 +5,7 @@
 
         <div class="card-header aheader" style="height:120px; background-color: #828282; ">
           <div class="row text-sm">
-            <div class="col-lg-12 scrollable-div">
+            <div class="col-lg-8 scrollable-div">
               <div class="form-group">
                 <div class="row g-3 justify-content-start">
                   <div class="col-2 text-white">
@@ -17,7 +17,7 @@
                   </div>
 
 
-                  <div class="col-1 text-white">
+                  <div class="col-2 text-white">
                     <div class="form-check-inline">
                       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                       <label class="form-check-label" for="flexRadioDefault2">

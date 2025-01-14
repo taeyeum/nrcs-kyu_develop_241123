@@ -11,38 +11,41 @@
                             <div class="form-group">
                                 <div class="row justify-content-start">
 
-                                    <div class="col-4">
-                                        <div class="input-group align-items-center">
-                                            채널&ensp;
+                                    <div class="col-10">
+                                        <div class="input-group ">
+                                            <label class="mt-1">채널</label>&ensp;
                                             <div class="row">
-                                                <div class="col-12">
+
+                                                <div class="col-2">
                                                     <select class="form-select form-select-sm "
                                                         aria-label="Default select example">
                                                         <option selected>MS</option>
 
                                                     </select>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    <div class="col-6 ">
-                                        <div class="input-group align-items-center">
-                                            프로그램명&ensp;
-                                            <div class="row">
+
                                                 <div class="col-10">
-                                                    <input type="text"
-                                                        class="form-control form-control-sm  datetimepicker-input "
-                                                        data-target="#reservationdate" />
+                                                    <div class="input-group align-items-center">
+                                                        프로그램명&ensp;
+                                                        <div class="row">
+                                                            <div class="col-5">
+                                                                <input type="text"
+                                                                    class="form-control form-control-sm  datetimepicker-input "
+                                                                    data-target="#reservationdate" />
+                                                            </div>
+
+                                                            <div class="col-1">
+                                                                <button class="btn btn-info btn-sm mx-1">
+                                                                    검색
+                                                                </button>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
                                                 </div>
 
-                                                <div class="col-1">
-                                                    <button class="btn btn-info btn-sm mx-1">
-                                                        검색
-                                                    </button>
-                                                </div>
                                             </div>
-
                                         </div>
                                     </div>
 

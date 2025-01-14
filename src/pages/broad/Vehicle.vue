@@ -37,8 +37,8 @@
 
 
                   <div class="col-7 text-white">
-                    <div class="input-group">
-                      <label style="margin-top: 3px;">중계예정일</label>&ensp;
+                    <div class="input-group ">
+                      <label class="mt-1">중계예정일</label>&ensp;
                       <div class="row">
                         <div class="col-5">
                           <input type="date" class="form-control form-control-sm  datetimepicker-input "
