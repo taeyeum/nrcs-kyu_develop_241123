@@ -24,7 +24,7 @@
                         </div>
 
 
-                        <div class="col-8 ">
+                        <div class="col-9 ">
                           <div class="input-group align-items-center">
                             그룹명&ensp;
                             <div class="row">
@@ -44,7 +44,7 @@
                         </div>
 
 
-                        <div class="col-2 ml-n4">
+                        <div class="col-1 ml-n5">
                           <div class=" form-check form-check-inline text-white">
                             <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
                             <label class="form-check-label" for="inlineCheckbox3">삭제데이터</label>
@@ -85,7 +85,7 @@
         <div class="card-body p-0 m-0 text-sm">
           <div class="row gx-1">
 
-            <div class="col-lg-7 ">
+            <div class="col-lg-7 container">
               <div class="card" style="height:720px;">
                 그룹 목록
                 <ag-grid-vue ref="grid1" :columnDefs="columnDefs" :modules="modules" :rowData="rowData"
@@ -110,8 +110,8 @@
 
             </div>
 
-            <div class="col-lg-5  ml-n2 text-sm">
-              <div class="card " style="height:740px;">
+            <div class="col-lg-5 text-sm ">
+              <div class="card ml-n2" style="height:740px;">
                 <div class="row gx-1">
                   <div class="col-lg-10">
                     그룹 별 사용자 목록

@@ -23,7 +23,7 @@
                                                 </div>
 
 
-                                                <div class="col-8 ">
+                                                <div class="col-9 ">
                                                     <div class="input-group align-items-center">
                                                         사용자&ensp;
                                                         <div class="row">
@@ -44,7 +44,7 @@
                                                 </div>
 
 
-                                                <div class="col-2 ml-n4">
+                                                <div class="col-1 ml-n5">
                                                     <div class=" form-check form-check-inline text-white">
                                                         <input class="form-check-input" type="checkbox"
                                                             id="inlineCheckbox3" value="option3">
@@ -116,8 +116,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4  ml-n2 text-sm">
-                            <div class="card " style="height:740px;">
+                        <div class="col-lg-4   text-sm">
+                            <div class="card ml-n2" style="height:740px;">
                                 <div class="row gx-1 mx-1 mt-3">
                                     <div class="col-lg-6">
                                         <div class="input-group ">

@@ -76,8 +76,8 @@
                         </div>
 
 
-                        <div class="col-lg-4  ml-n2 text-sm">
-                            <div class="card " style="height:740px;">
+                        <div class="col-lg-4   text-sm">
+                            <div class="card ml-n2" style="height:740px;">
                                 <div class="row gx-1 mx-1 mt-3">
                                     <div class="col-lg-6">
                                         <div class="input-group ">

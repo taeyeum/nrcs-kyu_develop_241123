@@ -35,7 +35,7 @@
 
                 <div class="card-body p-0 m-0 text-sm">
                     <div class="row gx-1">
-                        <div class="col-lg-2 ">
+                        <div class="col-lg-2 container">
                             <div class="card" style="height:740px;">
                                 <div class="container-fluid">
                                     <div class="tree mt-2 ">
@@ -59,10 +59,10 @@
                         </div>
 
 
-                        <div class="col-lg-10 ml-n2">
+                        <div class="col-lg-10 ">
                             <ag-grid-vue :columnDefs="columnDefs" :modules="modules" :rowData="rowData"
                                 :groupHeaders="true" :defaultColDef="defaultColDef" @cellClicked="onCellClicked"
-                                :headerHeight="28" :rowHeight="35" class="ag-theme-alpine"
+                                :headerHeight="28" :rowHeight="35" class="ag-theme-alpine ml-n2"
                                 style="flex: 1 1 auto; height: 740px; " @grid-ready="onGridReady">
 
                             </ag-grid-vue>

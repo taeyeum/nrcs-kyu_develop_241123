@@ -39,7 +39,7 @@
 
                 <div class="card-body p-0 m-0 text-sm">
                     <div class="row gx-1">
-                        <div class="col-lg-2 ml-2">
+                        <div class="col-lg-2 ml-2 container">
                             <div class="card" style="height:740px;">
 
                                 <div class="button-group mt-2 mx-3">
@@ -81,6 +81,7 @@
                         </div>
 
                         <div class="col-lg-6 ml-n2">
+
                             <ag-grid-vue :columnDefs="columnDefs" :modules="modules" :rowData="rowData"
                                 :groupHeaders="true" :defaultColDef="defaultColDef" @cellClicked="onCellClicked"
                                 :headerHeight="28" :rowHeight="35" class="ag-theme-alpine"
@@ -101,8 +102,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4  ml-n2 text-sm">
-                            <div class="card " style="height:740px;">
+                        <div class="col-lg-4  text-sm">
+                            <div class="card ml-n2 " style="height:740px;">
                                 <div class="row gx-1 mx-1 mt-3">
                                     <div class="col-lg-6">
                                         <div class="input-group ">

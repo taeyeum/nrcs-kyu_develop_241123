@@ -78,8 +78,8 @@
                 <div class="card-body p-0 m-0 text-sm">
                     <div class="row gx-1">
 
-                        <div class="col-lg-2 text-center ml-2">
-                            <div class="card" style="height:770px;">
+                        <div class="col-lg-2 text-center container">
+                            <div class="card " style="height:770px;">
                                 주메뉴
                                 <ag-grid-vue ref="grid1" :columnDefs="columnDefs" :modules="modules" :rowData="rowData"
                                     :groupHeaders="true" :defaultColDef="defaultColDef" @cellClicked="onCellClicked"
@@ -90,8 +90,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-2 text-center ml-n2">
-                            <div class="card" style="height:770px;">
+                        <div class="col-lg-2 text-center ">
+                            <div class="card ml-n2" style="height:770px;">
 
                                 그룹메뉴
                                 <ag-grid-vue ref="grid2" :columnDefs="columnDefs01" :modules="modules"
@@ -104,8 +104,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-2 text-center ml-n2">
-                            <div class="card" style="height:770px;">
+                        <div class="col-lg-2 text-center ">
+                            <div class="card ml-n2" style="height:770px;">
                                 프로그램
                                 <ag-grid-vue ref="grid3" :columnDefs="columnDefs02" :modules="modules"
                                     :rowData="rowData02" :groupHeaders="true" :defaultColDef="defaultColDef"
@@ -117,8 +117,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 text-center ml-n2">
-                            <div class="card" style="height:770px;">
+                        <div class="col-lg-6 text-center ">
+                            <div class="card ml-n2" style="height:770px;">
                                 사용권한
                                 <ag-grid-vue ref="grid4" :columnDefs="columnDefs03" :modules="modules"
                                     :rowData="rowData03" :groupHeaders="true" :defaultColDef="defaultColDef"

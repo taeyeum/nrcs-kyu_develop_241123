@@ -100,7 +100,7 @@
                   </div>
 
 
-                  <div class="col-2 ml-3 text-white">
+                  <div class="col-3 ml-3 text-white">
                     <div class="form-check form-check-inline">
                       <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                       <label class="form-check-label" for="inlineCheckbox1">긴급</label>&ensp;
@@ -157,7 +157,7 @@
 
 
                   <div class="col-3  text-white">
-                    <div class="input-group " style="position: relative; left:50px; top:-33px;">
+                    <div class="input-group " style="position: relative; left:100px; top:-33px;">
                       상세설명&ensp;
                       <textarea class="form-control form-control-sm mt-n2 " placeholder="Leave a comment here"
                         id="floatingTextarea" rows="2"></textarea>

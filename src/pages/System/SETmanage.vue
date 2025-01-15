@@ -11,11 +11,11 @@
                             <div class="form-group">
                                 <div class="row justify-content-start">
 
-                                    <div class="col-5 ">
+                                    <div class="col-6 ">
                                         <div class="input-group align-items-center">
                                             사이트명&ensp;
                                             <div class="row">
-                                                <div class="col-10">
+                                                <div class="col-8">
                                                     <input type="text"
                                                         class="form-control form-control-sm  datetimepicker-input "
                                                         data-target="#reservationdate" />
@@ -32,7 +32,7 @@
                                     </div>
 
 
-                                    <div class="col-7">
+                                    <div class="col-6">
                                         <div class="button-group  float-right">
                                             <button type="button" class="btn btn-info btn-sm mr-2 mb-2">
                                                 신규
@@ -81,8 +81,8 @@
                         </div>
 
 
-                        <div class="col-lg-4  ml-n2 text-sm">
-                            <div class="card " style="height:740px;">
+                        <div class="col-lg-4   text-sm">
+                            <div class="card ml-n2" style="height:740px;">
                                 <div class="row gx-1 mx-1 mt-3">
                                     <div class="col-lg-12">
                                         <div class="input-group ">
@@ -119,7 +119,7 @@
                                             &ensp;&ensp;아이디&ensp;
                                             <input type="text"
                                                 class="form-control form-control-sm  datetimepicker-input "
-                                                data-target="#reservationdate" />&ensp;
+                                                data-target="#reservationdate" />
 
                                         </div>
                                     </div>
@@ -183,8 +183,7 @@
                                             등록일시&ensp;
                                             <input type="text"
                                                 class="form-control form-control-sm  datetimepicker-input "
-                                                data-target="#reservationdate">&ensp;&ensp;
-
+                                                data-target="#reservationdate">
                                         </div>
                                     </div>
 
@@ -204,7 +203,7 @@
                                             수정일시&ensp;
                                             <input type="text"
                                                 class="form-control form-control-sm  datetimepicker-input "
-                                                data-target="#reservationdate">&ensp;&ensp;
+                                                data-target="#reservationdate">
 
 
                                         </div>
