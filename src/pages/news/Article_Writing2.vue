@@ -5,7 +5,7 @@
 
         <div class="card-header aheader" style="height:120px; background-color: #828282; ">
           <div class="row text-sm">
-            <div class="col-lg-12 scrollable-div">
+            <div class="col-lg-8 scrollable-div">
               <div class="form-group">
                 <div class="row g-3 justify-content-start">
                   <div class="col-2 text-white">
@@ -17,7 +17,7 @@
                   </div>
 
 
-                  <div class="col-1 text-white">
+                  <div class="col-2 text-white">
                     <div class="form-check-inline">
                       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                       <label class="form-check-label" for="flexRadioDefault2">
@@ -100,7 +100,7 @@
                   </div>
 
 
-                  <div class="col-2 ml-3 text-white">
+                  <div class="col-3 ml-3 text-white">
                     <div class="form-check form-check-inline">
                       <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                       <label class="form-check-label" for="inlineCheckbox1">긴급</label>&ensp;
@@ -157,7 +157,7 @@
 
 
                   <div class="col-3  text-white">
-                    <div class="input-group " style="position: relative; left:50px; top:-33px;">
+                    <div class="input-group " style="position: relative; left:100px; top:-33px;">
                       상세설명&ensp;
                       <textarea class="form-control form-control-sm mt-n2 " placeholder="Leave a comment here"
                         id="floatingTextarea" rows="2"></textarea>
@@ -170,6 +170,7 @@
             <slot />
           </div>
         </div>
+
 
         <div class="row" style="height:40px; background-color: #cccccc;">
           <div class="col-lg-12 mt-1 scrollable-div">
@@ -311,8 +312,8 @@
 
 
 
-            <div class="col-lg-3 ml-n1">
-              <div class="card " style="height:620px;">
+            <div class="col-lg-3 ">
+              <div class="card ml-n2" style="height:620px;">
                 <div class="row text-sm mx-1">
 
                   <!-- /.card-header -->
