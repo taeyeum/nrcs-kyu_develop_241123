@@ -24,7 +24,7 @@
                         </div>
 
 
-                        <div class="col-3 text-white">
+                        <div class="col-4 text-white">
                           <div class="input-group align-items-center">
                             상태&ensp;
                             <div class="row">
@@ -39,7 +39,7 @@
                         </div>
 
 
-                        <div class="col-2">
+                        <div class="col-1">
                           <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
                             <label class="form-check-label" for="inlineCheckbox3">내의뢰</label>

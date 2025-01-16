@@ -56,7 +56,7 @@
 
                 <div class="card-body p-0 m-0 text-sm">
                     <div class="row">
-                        <div class="col-lg-2 ml-2 container">
+                        <div class="col-lg-2 ml-2 ">
                             <div class="card" style="height:740px;">
 
                                 <div class="button-group mt-2 mx-3">

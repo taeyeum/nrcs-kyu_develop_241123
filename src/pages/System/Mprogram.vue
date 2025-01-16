@@ -75,10 +75,10 @@
                 </div>
 
 
-                <div class="card-body p-0 m-0 text-sm">
-                    <div class="row gx-1">
+                <div class="card-body p-0 m-0 text-sm ">
+                    <div class="row gx-1 ">
 
-                        <div class="col-lg-2 text-center container">
+                        <div class="col-lg-2 text-center ">
                             <div class="card " style="height:770px;">
                                 주메뉴
                                 <ag-grid-vue ref="grid1" :columnDefs="columnDefs" :modules="modules" :rowData="rowData"
