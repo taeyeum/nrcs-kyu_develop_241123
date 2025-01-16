@@ -79,19 +79,22 @@
                     <div class="row gx-1 ">
 
                         <div class="col-lg-2 text-center ">
-                            <div class="card " style="height:770px;">
-                                주메뉴
-                                <ag-grid-vue ref="grid1" :columnDefs="columnDefs" :modules="modules" :rowData="rowData"
-                                    :groupHeaders="true" :defaultColDef="defaultColDef" @cellClicked="onCellClicked"
-                                    :headerHeight="28" :rowHeight="35" class="ag-theme-alpine"
-                                    style="flex: 1 1 auto; height: 770px; " @grid-ready="onGridReady1">
+                            <div class="container">
+                                <div class="card " style="height:770px;">
+                                    주메뉴
+                                    <ag-grid-vue ref="grid1" :columnDefs="columnDefs" :modules="modules"
+                                        :rowData="rowData" :groupHeaders="true" :defaultColDef="defaultColDef"
+                                        @cellClicked="onCellClicked" :headerHeight="28" :rowHeight="35"
+                                        class="ag-theme-alpine" style="flex: 1 1 auto; height: 770px; "
+                                        @grid-ready="onGridReady1">
 
-                                </ag-grid-vue>
+                                    </ag-grid-vue>
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-lg-2 text-center ">
-                            <div class="card ml-n2" style="height:770px;">
+                            <div class="card ml-n3" style="height:770px;">
 
                                 그룹메뉴
                                 <ag-grid-vue ref="grid2" :columnDefs="columnDefs01" :modules="modules"

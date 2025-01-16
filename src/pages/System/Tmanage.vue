@@ -55,52 +55,53 @@
 
 
                 <div class="card-body p-0 m-0 text-sm">
-                    <div class="row">
-                        <div class="col-lg-2 ml-2 ">
-                            <div class="card" style="height:740px;">
+                    <div class="row ">
+                        <div class="col-lg-2">
+                            <div class="container">
+                                <div class="card" style="height:740px;">
 
-                                <div class="button-group mt-2 mx-3">
-                                    <button type="button" class="btn btn-info btn-sm mr-2 mb-2" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal3">
-                                        등록
-                                    </button>
-                                    <ModalComponent3 />
-                                    <button type="button" class="btn btn-info btn-sm mr-2 mb-2" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal4">
-                                        수정
-                                    </button>
-                                    <ModalComponent4 />
-                                    <button type="button" class="btn btn-info btn-sm mr-2 mb-2">
-                                        삭제
-                                    </button>
+                                    <div class="button-group mt-2 mx-3">
+                                        <button type="button" class="btn btn-info btn-sm mr-2 mb-2"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                            등록
+                                        </button>
+                                        <ModalComponent3 />
+                                        <button type="button" class="btn btn-info btn-sm mr-2 mb-2"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                            수정
+                                        </button>
+                                        <ModalComponent4 />
+                                        <button type="button" class="btn btn-info btn-sm mr-2 mb-2">
+                                            삭제
+                                        </button>
 
-                                </div>
-
-                                <div class="container-fluid">
-                                    <div class="tree mt-2 ">
-                                        <ul>
-                                            <li v-for="item in treeData" :key="item.id" @click="handleClick(item)">
-                                                {{ item.label }}
-                                                <ul v-if="item.children && item.children.length > 0"
-                                                    style="margin-left: 20px;">
-                                                    <li v-for="child in item.children" :key="child.id"
-                                                        style="padding-top: 10px;">
-                                                        <span class="node">{{ child.label }}</span>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
                                     </div>
 
-                                </div>
+                                    <div class="container-fluid">
+                                        <div class="tree mt-2 ">
+                                            <ul>
+                                                <li v-for="item in treeData" :key="item.id" @click="handleClick(item)">
+                                                    {{ item.label }}
+                                                    <ul v-if="item.children && item.children.length > 0"
+                                                        style="margin-left: 20px;">
+                                                        <li v-for="child in item.children" :key="child.id"
+                                                            style="padding-top: 10px;">
+                                                            <span class="node">{{ child.label }}</span>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
 
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-7 ">
+                        <div class="col-lg-7">
                             <ag-grid-vue :columnDefs="columnDefs" :modules="modules" :rowData="rowData"
                                 :groupHeaders="true" :defaultColDef="defaultColDef" @cellClicked="onCellClicked"
-                                :headerHeight="28" :rowHeight="35" class="ag-theme-alpine ml-n2"
+                                :headerHeight="28" :rowHeight="35" class="ag-theme-alpine ml-n3"
                                 style="flex: 1 1 auto; height: 740px; " @grid-ready="onGridReady">
 
                             </ag-grid-vue>

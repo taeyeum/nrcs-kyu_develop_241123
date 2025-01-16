@@ -79,28 +79,29 @@
                 </div>
 
 
-                <div class="card-body p-0 m-0 text-sm">
-                    <div class="row gx-1">
+                <div class="card-body  p-0 m-0 text-sm">
+                    <div class="row gx-1 ">
                         <div class="col-lg-2 ">
-                            <div class="card" style="height:740px;">
-                                <div class="container-fluid ">
-                                    <div class="tree mt-2 ">
-                                        <ul>
-                                            <li v-for="item in treeData" :key="item.id" @click="handleClick(item)">
-                                                {{ item.label }}
-                                                <ul v-if="item.children && item.children.length > 0"
-                                                    style="margin-left: 20px;">
-                                                    <li v-for="child in item.children" :key="child.id"
-                                                        style="padding-top: 10px;">
-                                                        <span class="node">{{ child.label }}</span>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                            <div class="container">
+                                <div class="card" style="height:740px;">
+                                    <div class="container-fluid ">
+                                        <div class="tree mt-2 ">
+                                            <ul>
+                                                <li v-for="item in treeData" :key="item.id" @click="handleClick(item)">
+                                                    {{ item.label }}
+                                                    <ul v-if="item.children && item.children.length > 0"
+                                                        style="margin-left: 20px;">
+                                                        <li v-for="child in item.children" :key="child.id"
+                                                            style="padding-top: 10px;">
+                                                            <span class="node">{{ child.label }}</span>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+
                                     </div>
-
                                 </div>
-
                             </div>
                         </div>
 

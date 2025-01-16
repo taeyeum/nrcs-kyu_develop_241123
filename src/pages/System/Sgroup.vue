@@ -88,32 +88,33 @@
           <div class="row gx-1">
 
             <div class="col-lg-7 ">
-              <div class="card " style="height:720px;">
-                그룹 목록
-                <ag-grid-vue ref="grid1" :columnDefs="columnDefs" :modules="modules" :rowData="rowData"
-                  :groupHeaders="true" :defaultColDef="defaultColDef" :rowSelection="rowSelection"
-                  @cellClicked="onCellClicked" :headerHeight="28" :rowHeight="35" class="ag-theme-alpine"
-                  style="flex: 1 1 auto; height: 720px; " @grid-ready="onGridReady1">
+              <div class="container">
+                <div class="card " style="height:720px;">
+                  그룹 목록
+                  <ag-grid-vue ref="grid1" :columnDefs="columnDefs" :modules="modules" :rowData="rowData"
+                    :groupHeaders="true" :defaultColDef="defaultColDef" :rowSelection="rowSelection"
+                    @cellClicked="onCellClicked" :headerHeight="28" :rowHeight="35" class="ag-theme-alpine"
+                    style="flex: 1 1 auto; height: 720px; " @grid-ready="onGridReady1">
 
-                </ag-grid-vue>
+                  </ag-grid-vue>
+                </div>
+
+                <div class="nav text-sm " style="display:flex; justify-content: center; ">
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
-
-              <div class="nav text-sm " style="display:flex; justify-content: center; ">
-                <nav aria-label="Page navigation example">
-                  <ul class="pagination">
-                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                  </ul>
-                </nav>
-              </div>
-
             </div>
 
             <div class="col-lg-5 text-sm ">
-              <div class="card ml-n2" style="height:740px;">
+              <div class="card ml-n3" style="height:740px;">
                 <div class="row gx-1">
                   <div class="col-lg-10">
                     그룹 별 사용자 목록
