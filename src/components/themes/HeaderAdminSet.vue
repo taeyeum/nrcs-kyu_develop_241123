@@ -10,7 +10,7 @@
         </div>
 
 
-        <div class="modal-body">
+        <div class="modal-body ">
           <div class="row ">
             <div class="col-lg-12">
               <p class="text-blue ">비밀번호 변경 정책</p>
@@ -18,7 +18,7 @@
             </div>
 
             <div class="col-lg-6">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 채널&ensp;
                 <select class="form-select form-select-sm " aria-label="Default select example">
                   <option selected>MS</option>
@@ -27,14 +27,14 @@
               </div>
             </div>
 
-            <div class="col-lg-12">
-              <div class="input-group mt-2">
+            <div class="col-lg-12 ">
+              <div class="input-group mt-2 align-items-center">
                 비밀번호 변경주기&ensp;
                 <select class="form-select form-select-sm" aria-label="Default select example">
                   <option selected>3개월</option>
 
                 </select>&ensp;
-                <button class="btn btn-info btn-sm mr-2 mb-2">
+                <button class="btn btn-info btn-sm mr-2 mb-2 mt-2">
                   전체사용자즉시적용
                 </button>
               </div>
@@ -50,7 +50,7 @@
 
 
             <div class="col-lg-6">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 채널&ensp;
                 <select class="form-select form-select-sm " aria-label="Default select example">
                   <option selected>MS</option>
@@ -60,13 +60,13 @@
             </div>
 
             <div class="col-lg-12">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 SNS 인증주기&ensp;
                 <select class="form-select form-select-sm" aria-label="Default select example">
                   <option selected>3개월</option>
 
                 </select>&ensp;
-                <button class="btn btn-info btn-sm mr-2 mb-2">
+                <button class="btn btn-info btn-sm mr-2 mb-2 mt-2">
                   전체사용자즉시적용
                 </button>
               </div>
@@ -83,7 +83,7 @@
             </div>
 
             <div class="col-lg-12">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 기존 비밀번호&ensp;
                 <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username"
                   aria-describedby="basic-addon1">
@@ -91,7 +91,7 @@
             </div>
 
             <div class="col-lg-12">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 &ensp;&ensp;새 비밀번호&ensp;
                 <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username"
                   aria-describedby="basic-addon1">
@@ -99,7 +99,7 @@
             </div>
 
             <div class="col-lg-12">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 비밀번호 확인&ensp;
                 <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username"
                   aria-describedby="basic-addon1">

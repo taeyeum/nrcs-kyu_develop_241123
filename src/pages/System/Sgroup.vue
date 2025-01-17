@@ -25,7 +25,7 @@
 
                         <div class="col-9 ">
                           <div class="input-group align-items-center">
-                            사용자&ensp;
+                            그룹명&ensp;
                             <div class="row">
                               <div class="col-5">
                                 <input type="text" class="form-control form-control-sm  datetimepicker-input "

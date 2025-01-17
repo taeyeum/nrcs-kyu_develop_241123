@@ -18,7 +18,7 @@
             </div>
 
             <div class="col-lg-12">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 &ensp;&ensp;이메일 주소&ensp;
                 <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username"
                   aria-describedby="basic-addon1">
@@ -26,7 +26,7 @@
             </div>
 
             <div class="col-lg-12">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 휴대 전화번호&ensp;
                 <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username"
                   aria-describedby="basic-addon1">
@@ -34,7 +34,7 @@
             </div>
 
             <div class="col-lg-12">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 내선 전화번호&ensp;
                 <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username"
                   aria-describedby="basic-addon1">
@@ -48,7 +48,7 @@
 
 
             <div class="col-lg-12">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 &ensp;&ensp;&ensp;사용자 ID&ensp;
                 <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username"
                   aria-describedby="basic-addon1">
@@ -56,7 +56,7 @@
             </div>
 
             <div class="col-lg-12">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 &ensp;&ensp;&ensp;사용자 명&ensp;
                 <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username"
                   aria-describedby="basic-addon1">
@@ -69,7 +69,7 @@
             </div>
 
             <div class="col-lg-12">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 기존 비밀번호&ensp;
                 <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username"
                   aria-describedby="basic-addon1">
@@ -77,7 +77,7 @@
             </div>
 
             <div class="col-lg-12">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 &ensp;&ensp;새 비밀번호&ensp;
                 <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username"
                   aria-describedby="basic-addon1">
@@ -85,7 +85,7 @@
             </div>
 
             <div class="col-lg-12">
-              <div class="input-group mt-2">
+              <div class="input-group mt-2 align-items-center">
                 비밀번호 확인&ensp;
                 <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username"
                   aria-describedby="basic-addon1">
