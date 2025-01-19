@@ -11,14 +11,12 @@
                 <div class="row justify-content-start">
                   <div class="col-9">
                     <div class="input-group">
-                      <div class="col-3">
+                      <div class="col-6">
                         <div class="form-check form-check-inline">
                           <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
                           <label class="form-check-label" for="inlineCheckbox3">종영 프로그램</label>
-                        </div>
-                      </div>
+                        </div>&ensp;&ensp;&ensp;
 
-                      <div class="col-3">
                         <div class="form-check form-check-inline">
                           <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
                           <label class="form-check-label" for="inlineCheckbox3">삭제 프로그램</label>

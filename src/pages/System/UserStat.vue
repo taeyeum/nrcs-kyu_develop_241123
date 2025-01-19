@@ -11,67 +11,60 @@
                             <div class="form-group">
                                 <div class="row justify-content-start">
 
-                                    <div class="col-4">
-                                        <div class="input-group">
+                                    <div class="col-11">
+                                        <div class="input-group ">
                                             <div class="row">
-                                                <div class="col-5">
+                                                <div class="col-2">
                                                     <input type="date"
                                                         class="form-control form-control-sm  datetimepicker-input "
                                                         data-target="#reservationdate" />
                                                 </div>~
-                                                <div class="col-5">
+
+                                                <div class="col-2">
                                                     <input type="date"
                                                         class="form-control form-control-sm datetimepicker-input"
                                                         data-target="#reservationdate" />&ensp;
                                                 </div>
-                                            </div>
+                                                <div class="col-2">
+                                                    <div class="input-group align-items-center ">
+                                                        접속경로&ensp;
+                                                        <select class="form-select form-select-sm "
+                                                            aria-label="Default select example">
+                                                            <option selected>CS</option>
 
+                                                        </select>
 
-                                        </div>
-                                    </div>
-
-                                    <div class="col-2">
-                                        <div class="input-group align-items-center ">
-                                            접속&ensp;
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <select class="form-select form-select-sm "
-                                                        aria-label="Default select example">
-                                                        <option selected>CS</option>
-
-                                                    </select>
+                                                    </div>
                                                 </div>
+
+                                                <div class="col-2">
+                                                    <div class="input-group align-items-center">
+                                                        IP&ensp;
+                                                        <input type="text"
+                                                            class="form-control form-control-sm  datetimepicker-input "
+                                                            data-target="#reservationdate" />
+
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="col-2">
+                                                    <div class="input-group align-items-center">
+                                                        사용자명&ensp;
+
+                                                        <input type="text"
+                                                            class="form-control form-control-sm  datetimepicker-input "
+                                                            data-target="#reservationdate" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-1">
+                                                    <button class="btn btn-info btn-sm mx-1">
+                                                        검색
+                                                    </button>
+                                                </div>
+
                                             </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-1">
-                                        <div class="input-group align-items-center">
-                                            IP&ensp;
-                                            <input type="text"
-                                                class="form-control form-control-sm  datetimepicker-input "
-                                                data-target="#reservationdate" />
-
-                                        </div>
-                                    </div>
-
-
-                                    <div class="col-4">
-                                        <div class="input-group align-items-center">
-                                            사용자&ensp;
-                                            <div class="col-3">
-                                                <input type="text"
-                                                    class="form-control form-control-sm  datetimepicker-input "
-                                                    data-target="#reservationdate" />
-                                            </div>
-
-                                            <div class="col-1">
-                                                <button class="btn btn-info btn-sm mx-1">
-                                                    검색
-                                                </button>
-                                            </div>
-
-
                                         </div>
                                     </div>
 
@@ -82,8 +75,8 @@
                                                 삭제
                                             </button>
                                         </div>
-
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -105,7 +98,8 @@
                             <div class="nav text-sm " style="display:flex; justify-content: center; ">
                                 <nav aria-label="Page navigation example">
                                     <ul class="pagination">
-                                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">Previous</a>
+                                        </li>
                                         <li class="page-item"><a class="page-link" href="#">1</a></li>
                                         <li class="page-item"><a class="page-link" href="#">2</a></li>
                                         <li class="page-item"><a class="page-link" href="#">3</a></li>

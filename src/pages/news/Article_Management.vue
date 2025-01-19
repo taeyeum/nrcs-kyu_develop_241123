@@ -4,12 +4,12 @@
       <div class="col-lg-12 ">
 
         <div class="card-header aheader" style="height:90px; background-color: #828282; ">
-          <div class="row text-sm">
-            <div class="col-lg-8 scrollable-div">
+          <div class="row text-sm text-white">
+            <div class="col-lg-7 scrollable-div">
               <div class="form-group">
                 <div class="row justify-content-start">
 
-                  <div class="col-2 text-white">
+                  <div class="col-2 mt-1">
                     <div class="form-check-inline">
                       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                       <label class="form-check-label" for="flexRadioDefault1">
@@ -34,94 +34,21 @@
                   </div>
 
 
-                  <div class="col-8 ml-5 text-white">
-                    <div class="input-group">
-                      <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button"
-                        data-bs-toggle="dropdown" aria-expanded="false"
-                        style="height:30px; color:white; border:1px solid white;">
-                        전체
-                      </button>&ensp;
-                      <div class="col-2">
+                  <div class="col-5 ml-5 ">
+                    <div class="input-group ">
+                      <label class="mt-1">작성일</label>
+                      <div class="col-4">
                         <input type="date" class="form-control form-control-sm  datetimepicker-input "
                           data-target="#reservationdate" />
                       </div>~
-                      <div class="col-3">
+                      <div class="col-4">
                         <input type="date" class="form-control form-control-sm datetimepicker-input"
                           data-target="#reservationdate" />&ensp;
                       </div>
-
-                      <div class="col-2">
-                        <input type="text" class="form-control form-control-sm datetimepicker-input"
-                          data-target="#reservationdate" />
-                      </div>
-                      <div class="col-1">
-                        <button class="btn btn-info btn-sm mr-2 mb-2">
-                          검색
-                        </button>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row mt-n4 text-sm">
-            <div class="col-lg-7 scrollable-div mt-n1">
-              <div class="form-group">
-                <div class="row justify-content-start">
-
-                  <div class="col-2 text-white ">
-                    <div class="input-group align-items-center">
-                      구분&ensp;
-
-                      <select class="form-select form-select-sm" aria-label="Default select example">
-                        <option selected>전체</option>
-
-                      </select>
-
-                    </div>
-                  </div>
-                  <div class="col-2 text-white">
-                    <div class="input-group align-items-center">
-                      형식&ensp;
-
-                      <select class="form-select form-select-sm" aria-label="Default select example">
-                        <option selected>전체</option>
-
-                      </select>
-
                     </div>
                   </div>
 
-                  <div class="col-2 text-white">
-                    <div class="input-group align-items-center">
-                      부서&ensp;
-
-                      <select class="form-select  form-select-sm" aria-label="Default select example">
-                        <option selected>정치부</option>
-
-                      </select>
-
-                    </div>
-                  </div>
-
-                  <div class="col-2 text-white">
-                    <div class="input-group align-items-center">
-                      분야&ensp;
-
-                      <select class="form-select  form-select-sm" aria-label="Default select example">
-                        <option selected>정치</option>
-
-                      </select>
-
-                    </div>
-                  </div>
-
-
-
-                  <div class="col-2 text-white">
+                  <div class="col-2 ml-n5">
 
                     <div class="input-group align-items-center">
                       SNS&ensp;
@@ -149,73 +76,82 @@
           </div>
         </div>
 
-        <div class="row aheader" style="height:65px; background-color: #cccccc;">
-          <div class="col-lg-12 mt-1 scrollable-div">
-            <div class="form-group">
-              <div class="row mx-4 justify-content-start">
-                <div class="col-12">
-                  <div class="button-group">
-                    <button class="btn btn-info btn-sm mr-2 mb-2">
-                      기사작성
-                    </button>
-                    <button class="btn btn-info btn-sm mr-2 mb-2">
-                      복사
-                    </button>
-                    <button class="btn btn-info btn-sm mr-2 mb-2">
-                      수정</button>
-                    <button class="btn btn-info btn-sm mr-2 mb-2">
-                      삭제
-                    </button>
-                    <button class="btn btn-info btn-sm mr-2 mb-2">
-                      삭제취소
-                    </button>
-                    <button class="btn btn-info btn-sm mr-2 mb-2">
-                      가승인
-                    </button>
-                    <button class="btn btn-info btn-sm mr-2 mb-2">
-                      가승인취소
-                    </button>
-                    <button class="btn btn-info btn-sm mr-5 mb-2">
-                      인쇄
-                    </button>
+
+        <div class="row text-sm text-white mt-n4 mx-2">
+          <div class="col-lg-7 mt-n3 scrollable-div">
+            <div class="form-group ">
+              <div class="row justify-content-start">
+
+                <div class="col-2 ">
+                  <div class="input-group align-items-center">
+                    구분&ensp;
+
+                    <select class="form-select  form-select-sm" aria-label="Default select example">
+                      <option selected>전체</option>
+
+                    </select>
+
+                  </div>
+                </div>
 
 
-                    <button class="btn btn-primary btn-sm mr-2 mb-2">
-                      부서게시판
-                    </button>
-                    <button class="btn btn-primary btn-sm mr-2 mb-2">
-                      취재계획
-                    </button>
-                    <button class="btn btn-info btn-sm mr-4 mb-2" data-bs-toggle="modal"
-                      data-bs-target="#exampleModal1">
-                      취재계획 맵핑
-                    </button>
-                    <ModalComponent />
+                <div class="col-2 ">
+                  <div class="input-group align-items-center">
+                    형식&ensp;
 
-                    <router-link to="/Article_management"><button class="btn btn-info btn-sm mr-2 mb-2 "
-                        style="height:30px; padding:0; padding-top: 1px;">
-                        <img src="../../components/image/screen.png">
-                      </button></router-link>
-                    <router-link to="/Article_management1"><button class="btn btn-info btn-sm mr-4 mb-2"
-                        style="height:30px; padding:0; padding-top: 1px;">
-                        <img src="../../components/image/screen2.png">
-                      </button></router-link>
+                    <select class="form-select  form-select-sm" aria-label="Default select example">
+                      <option selected>전체</option>
 
-                    <button class="btn btn-info btn-sm mr-2 mb-2" data-bs-toggle="modal"
-                      data-bs-target="#exampleModal2">
-                      웹기사 정보
+                    </select>
+
+                  </div>
+                </div>
+
+
+                <div class="col-2 ">
+                  <div class="input-group align-items-center">
+                    부서&ensp;
+
+                    <select class="form-select  form-select-sm" aria-label="Default select example">
+                      <option selected>정치부</option>
+
+                    </select>
+
+                  </div>
+                </div>
+
+                <div class="col-2 ">
+                  <div class="input-group align-items-center">
+                    분야&ensp;
+
+                    <select class="form-select  form-select-sm" aria-label="Default select example">
+                      <option selected>정치</option>
+
+                    </select>
+
+                  </div>
+                </div>
+
+                <div class="col-2 ">
+                  <div class="input-group align-items-center">
+
+                    <select class="form-select  form-select-sm" aria-label="Default select example">
+                      <option selected>전체</option>
+
+                    </select>
+
+                  </div>
+                </div>
+
+                <div class="col-2 ">
+                  <div class="input-group">
+
+                    <input type="text" class="form-control form-control-sm datetimepicker-input"
+                      data-target="#reservationdate" />&ensp;
+                    <button class="btn btn-info btn-sm mr-2 mb-2">
+                      검색
                     </button>
-                    <ModalComponent2 />
-                    <button class="btn btn-info btn-sm mr-2 mb-2" data-bs-toggle="modal"
-                      data-bs-target="#exampleModal3">
-                      방송이력
-                    </button>
-                    <ModalComponent3 />
-                    <button class="btn btn-info btn-sm mr-2 mb-2" data-bs-toggle="modal"
-                      data-bs-target="#exampleModal4">
-                      기사이력
-                    </button>
-                    <ModalComponent4 />
+
                   </div>
                 </div>
 
@@ -223,36 +159,107 @@
             </div>
           </div>
         </div>
+      </div>
 
 
-        <div class="card-body p-0 mt-n4">
-          <div class="row  gx-1">
+      <div class="row header mt-n3 " style="height:47px; background-color: #cccccc;">
+        <div class="col-lg-12 mt-1 scrollable-div">
+          <div class="form-group">
+            <div class="row mx-4 justify-content-start">
+              <div class="col-12">
+                <div class="button-group">
+                  <button class="btn btn-info btn-sm mr-2 mb-2">
+                    기사작성
+                  </button>
+                  <button class="btn btn-info btn-sm mr-2 mb-2">
+                    복사
+                  </button>
+                  <button class="btn btn-info btn-sm mr-2 mb-2">
+                    수정</button>
+                  <button class="btn btn-info btn-sm mr-2 mb-2">
+                    삭제
+                  </button>
+                  <button class="btn btn-info btn-sm mr-2 mb-2">
+                    삭제취소
+                  </button>
+                  <button class="btn btn-info btn-sm mr-2 mb-2">
+                    가승인
+                  </button>
+                  <button class="btn btn-info btn-sm mr-2 mb-2">
+                    가승인취소
+                  </button>
+                  <button class="btn btn-info btn-sm mr-5 mb-2">
+                    인쇄
+                  </button>
 
-            <div class="col-lg-12 ">
-              <ag-grid-vue :columnDefs="columnDefs" :modules="modules" :rowData="rowData" :groupHeaders="true"
-                :defaultColDef="defaultColDef" :headerHeight="28" :rowHeight="35" class="ag-theme-alpine"
-                style="flex: 1 1 auto; height: 660px; ">
-              </ag-grid-vue>
 
-              <div class="nav text-sm " style="display:flex; justify-content: center; ">
-                <nav aria-label="Page navigation example">
-                  <ul class="pagination">
-                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                  </ul>
-                </nav>
+                  <button class="btn btn-primary btn-sm mr-2 mb-2">
+                    부서게시판
+                  </button>
+                  <button class="btn btn-primary btn-sm mr-2 mb-2">
+                    취재계획
+                  </button>
+                  <button class="btn btn-info btn-sm mr-4 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    취재계획 맵핑
+                  </button>
+                  <ModalComponent />
+
+                  <router-link to="/Article_management"><button class="btn btn-info btn-sm mr-2 mb-2 "
+                      style="height:30px; padding:0; padding-top: 1px;">
+                      <img src="../../components/image/screen.png">
+                    </button></router-link>
+                  <router-link to="/Article_management1"><button class="btn btn-info btn-sm mr-4 mb-2"
+                      style="height:30px; padding:0; padding-top: 1px;">
+                      <img src="../../components/image/screen2.png">
+                    </button></router-link>
+
+                  <button class="btn btn-info btn-sm mr-2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    웹기사 정보
+                  </button>
+                  <ModalComponent2 />
+                  <button class="btn btn-info btn-sm mr-2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    방송이력
+                  </button>
+                  <ModalComponent3 />
+                  <button class="btn btn-info btn-sm mr-2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    기사이력
+                  </button>
+                  <ModalComponent4 />
+                </div>
               </div>
+
             </div>
-
-
-
           </div>
         </div>
-
       </div>
+    </div>
+  </div>
+
+
+
+  <div class="card-body p-0 mt-n4">
+    <div class="row  gx-1">
+
+      <div class="col-lg-12 ">
+        <ag-grid-vue :columnDefs="columnDefs" :modules="modules" :rowData="rowData" :groupHeaders="true"
+          :defaultColDef="defaultColDef" :headerHeight="28" :rowHeight="35" class="ag-theme-alpine"
+          style="flex: 1 1 auto; height: 660px; ">
+        </ag-grid-vue>
+
+        <div class="nav text-sm " style="display:flex; justify-content: center; ">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+
     </div>
   </div>
 

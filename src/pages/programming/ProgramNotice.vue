@@ -10,39 +10,55 @@
 
               <div class="form-group">
                 <div class="row justify-content-start">
-                  <div class="col-9 ">
-                    <div class="input-group align-items-center">
-                      작성일 &ensp;
+                  <div class="col-9">
+                    <div class="input-group ">
                       <div class="row">
 
-                        <div class="col-3">
+                        <div class="col-2">
                           <input type="date" class="form-control form-control-sm datetimepicker-input"
                             data-target="#reservationdate" />
                         </div>~
-                        <div class="col-3">
+                        <div class="col-2">
                           <input type="date" class="form-control form-control-sm datetimepicker-input"
                             data-target="#reservationdate" />
-
-                        </div>&ensp;
-
-                        <div class="col-3">
-                          <div class="input-group">
-
-                            <select class="form-select form-select-sm" aria-label="Default select example">
-                              <option selected>정치부</option>
-                            </select>
-                          </div>
                         </div>
 
                         <div class="col-2">
+                          <div class="input-group align-items-center">
+                            작성자&ensp;
+                            <input type="text" class="form-control form-control-sm datetimepicker-input"
+                              data-target="#reservationdate" />
+
+                          </div>&ensp;
+                        </div>
+
+
+                        <div class="col-2">
+                          <div class="input-group align-items-center">
+                            제목&ensp;
+                            <input type="text" class="form-control form-control-sm datetimepicker-input"
+                              data-target="#reservationdate" />
+
+                          </div>&ensp;
+                        </div>
+
+                        <div class="col-1">
+                          <button class="btn btn-info btn-sm mr-2 mb-2">
+                            검색
+                          </button>
+                        </div>
+
+                        <div class="col-1 mt-1">
                           <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
                             <label class="form-check-label" for="inlineCheckbox3">삭제데이터</label>
                           </div>
                         </div>
+
                       </div>
                     </div>
                   </div>
+
 
 
                   <div class="col-3 ">
@@ -78,7 +94,6 @@
 
                     </div>
                   </div>
-
 
                 </div>
               </div>

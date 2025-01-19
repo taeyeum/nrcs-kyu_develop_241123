@@ -10,60 +10,76 @@
 
               <div class="form-group">
                 <div class="row justify-content-start">
-                  <div class="col-3">
 
-                    <div class="form-check-inline align-middle">
-                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                      <label class="form-check-label" for="flexRadioDefault1">
-                        전체
-                      </label>&ensp;
-
-                      <div class="form-check-inline">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                        <label class="form-check-label" for="flexRadioDefault2">
-                          요청
-                        </label>&ensp;
-
-                        <div class="form-check-inline">
-                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-                            checked>
-                          <label class="form-check-label" for="flexRadioDefault2">
-                            배정완료
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="col-7 text-white">
+                  <div class="col-9">
                     <div class="input-group ">
-                      <label class="mt-1">중계예정일</label>&ensp;
                       <div class="row">
-                        <div class="col-5">
-                          <input type="date" class="form-control form-control-sm  datetimepicker-input "
-                            data-target="#reservationdate" />
-                        </div>~
 
-                        <div class="col-5">
-                          <input type="date" class="form-control form-control-sm datetimepicker-input"
-                            data-target="#reservationdate" />&ensp;
+                        <div class="col-4 mt-1">
+                          <div class="form-check-inline ">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              전체
+                            </label>&ensp;&ensp;
+
+                            <div class="form-check-inline">
+                              <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault2">
+                              <label class="form-check-label" for="flexRadioDefault2">
+                                요청
+                              </label>&ensp;&ensp;
+
+                              <div class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                  id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  배정완료
+                                </label>
+                              </div>
+                            </div>
+                          </div>
                         </div>
 
-                        <div class="col-1">
-                          <button class="btn btn-info btn-sm mr-2 mb-2">
-                            검색
-                          </button>
+                        <div class="col-2 ">
+
+                          <select class="form-select form-select-sm" aria-label="Default select example">
+                            <option selected>전체</option>
+                          </select>
+
+                        </div>
+
+
+
+                        <div class="col-5 ">
+                          <div class="input-group">
+                            <div class="row">
+                              <div class="col-5">
+                                <input type="date" class="form-control form-control-sm  datetimepicker-input "
+                                  data-target="#reservationdate" />
+                              </div>~
+
+                              <div class="col-5">
+                                <input type="date" class="form-control form-control-sm datetimepicker-input"
+                                  data-target="#reservationdate" />&ensp;
+                              </div>
+
+                              <div class="col-1">
+                                <button class="btn btn-info btn-sm mr-2 mb-2">
+                                  검색
+                                </button>
+                              </div>
+
+                            </div>
+                          </div>
                         </div>
 
                       </div>
                     </div>
                   </div>
-
 
 
                   <div class="col-2">
-                    <div class="button-group just">
+                    <div class="button-group ">
                       <button type="button" class="btn btn-info btn-sm mr-2 mb-2" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">
                         신규
@@ -81,6 +97,7 @@
                       </button>
                     </div>
                   </div>
+
 
                 </div>
               </div>

@@ -9,49 +9,51 @@
             <div class="col-lg-12 scrollable-div">
 
               <div class="form-group">
-                <div class="row justify-content-start">
-                  <div class="col-3">
+                <div class="row g-3 justify-content-start">
 
-                    <div class="input-group">
-                      <label class="mt-1">구분</label>&ensp;
-                      <div class="col-6">
-                        <select class="form-select form-select-sm" aria-label="Default select example ">
-                          <option selected>전체</option>
-
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="col-7 text-white">
+                  <div class="col-10">
                     <div class="input-group ">
-                      <label class="mt-1">중계예정일</label>&ensp;
+                      <label class="mt-1">구분</label>&ensp;
                       <div class="row">
-                        <div class="col-5">
-                          <input type="date" class="form-control form-control-sm  datetimepicker-input "
-                            data-target="#reservationdate" />
-                        </div>~
 
-                        <div class="col-5">
-                          <input type="date" class="form-control form-control-sm datetimepicker-input"
-                            data-target="#reservationdate" />&ensp;
+                        <div class="col-3">
+                          <select class="form-select form-select-sm" aria-label="Default select example ">
+                            <option selected>전체</option>
+
+                          </select>
                         </div>
 
-                        <div class="col-1">
-                          <button class="btn btn-info btn-sm mr-2 mb-2">
-                            검색
-                          </button>
+                        <div class="col-9">
+                          <div class="input-group ">
+                            <label class="mt-1">중계예정일</label>&ensp;
+
+                            <div class="col-4">
+                              <input type="date" class="form-control form-control-sm  datetimepicker-input "
+                                data-target="#reservationdate" />
+                            </div>~
+
+                            <div class="col-4">
+                              <input type="date" class="form-control form-control-sm datetimepicker-input"
+                                data-target="#reservationdate" />&ensp;
+                            </div>
+
+                            <div class="col-1">
+                              <button class="btn btn-info btn-sm mr-2 mb-2">
+                                검색
+                              </button>
+                            </div>
+
+
+                          </div>
                         </div>
 
                       </div>
                     </div>
                   </div>
-
 
 
                   <div class="col-2">
-                    <div class="form-group just">
+                    <div class="form-group ">
                       <button type="button" class="btn btn-info btn-sm mr-2 mb-2" data-bs-toggle="modal"
                         data-bs-target="#exampleModal1">
                         신규
@@ -69,6 +71,7 @@
                       </button>
                     </div>
                   </div>
+
 
                 </div>
               </div>

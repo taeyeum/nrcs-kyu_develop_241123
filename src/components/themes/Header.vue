@@ -232,6 +232,19 @@ export default {
       });
     };
 
+    const menuItems = document.querySelectorAll('.menu-item');
+    const menu = document.querySelector('.menu');
+
+    menuItems.forEach(item => {
+      item.addEventListener('click', () => {
+        // 모든 메뉴 항목에서 active 클래스 제거
+        menuItems.forEach(item => item.classList.remove('active'));
+        // 클릭한 메뉴 항목에 active 클래스 추가
+        item.classList.add('active');
+        // 메뉴판 숨기기
+        menu.classList.add('hidden');
+      });
+    });
 
     return {
       toggleMenu,
