@@ -3,12 +3,12 @@
     <div class="row">
       <div class="col-lg-12 ">
 
-        <div class="card-header aheader" style="height:120px; background-color: #828282; ">
-          <div class="row text-sm">
+        <div class="card-header aheader" style="height:90px; background-color: #828282; ">
+          <div class="row text-sm text-white">
             <div class="col-lg-8 scrollable-div">
               <div class="form-group">
                 <div class="row g-3 justify-content-start">
-                  <div class="col-2 text-white">
+                  <div class="col-2 ">
                     <div class="input-group align-items-center">
                       제목&ensp;
                       <input type="text" class="form-control form-control-sm" placeholder=""
@@ -17,7 +17,7 @@
                   </div>
 
 
-                  <div class="col-2 text-white">
+                  <div class="col-3 ">
                     <div class="form-check-inline">
                       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                       <label class="form-check-label" for="flexRadioDefault2">
@@ -31,15 +31,15 @@
                           이슈
                         </label>
                       </div>
+
+
+                      <input type="date" class="form-control form-control-sm datetimepicker-input"
+                        data-target="#reservationdate" />
                     </div>
                   </div>
 
-                  <div class="col-2">
-                    <input type="date" class="form-control form-control-sm datetimepicker-input"
-                      data-target="#reservationdate" />
-                  </div>
 
-                  <div class="col-2 text-white ">
+                  <div class="col-2 ml-3">
                     <div class="input-group align-items-center">
                       형식&ensp;
                       <select class="form-select form-select-sm" aria-label="Default select example">
@@ -49,7 +49,7 @@
                     </div>
                   </div>
 
-                  <div class="col-2 text-white ">
+                  <div class="col-2  ">
                     <div class="input-group align-items-center">
                       기자&ensp;
                       <select class="form-select form-select-sm" aria-label="Default select example">
@@ -75,13 +75,13 @@
             </div>
           </div>
 
-          <div class="row mt-n2 text-sm">
+          <div class="row mt-n2 text-sm text-white">
             <div class="col-lg-7 scrollable-div">
               <div class="form-group">
                 <div class="row justify-content-start">
 
 
-                  <div class="col-2 text-white ">
+                  <div class="col-2 ">
                     <div class="input-group align-items-center">
                       부서&ensp;
                       <select class="form-select form-select-sm" aria-label="Default select example">
@@ -91,7 +91,7 @@
                     </div>
                   </div>
 
-                  <div class="col-2 text-white">
+                  <div class="col-2 ">
                     <div class="input-group align-items-center">
                       분야&ensp;
                       <input type="text" class="form-control form-control-sm" placeholder="청와대"
@@ -100,7 +100,7 @@
                   </div>
 
 
-                  <div class="col-3 ml-3 text-white">
+                  <div class="col-5 ml-3 ">
                     <div class="form-check form-check-inline">
                       <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                       <label class="form-check-label" for="inlineCheckbox1">긴급</label>&ensp;
@@ -113,63 +113,27 @@
                           <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
                           <label class="form-check-label" for="inlineCheckbox3">에고</label>
                         </div>
+
+
+                        <div class="form-check form-check-inline">
+                          이슈&ensp;
+                          <select class="form-select form-select-sm" aria-label="Default select example">
+                            <option selected>청와대</option>
+
+                          </select>
+
+                        </div>
                       </div>
-                    </div>
-
-                  </div>
-
-
-                  <div class="col-2 text-white ">
-                    <div class="input-group align-items-center">
-                      이슈&ensp;
-                      <select class="form-select form-select-sm" aria-label="Default select example">
-                        <option selected>청와대</option>
-
-                      </select>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row mt-2">
-
-                  <div class="col-2 text-white">
-                    <div class="input-group align-items-center">
-                      작성&ensp;&ensp;&ensp;
-                      홍길동
-                    </div>
-                  </div>
-
-
-                  <div class="col-6 text-white">
-                    <div class="form-check form-check-inline ">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                      <label class="form-check-label " for="inlineCheckbox1">클립번호 재사용</label>&ensp;&ensp;&ensp;
-
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label" for="inlineCheckbox2">자막템플릿 미리보기</label>&ensp;&ensp;&ensp;
-
-
-                      </div>
-                    </div>
-                  </div>
-
-
-
-                  <div class="col-3  text-white">
-                    <div class="input-group " style="position: relative; left:100px; top:-33px;">
-                      상세설명&ensp;
-                      <textarea class="form-control form-control-sm mt-n2 " placeholder="Leave a comment here"
-                        id="floatingTextarea" rows="2"></textarea>
-
                     </div>
                   </div>
                 </div>
               </div>
+
             </div>
-            <slot />
           </div>
         </div>
+
+
 
         <div class="row" style="height:40px; background-color: #cccccc;">
           <div class="col-lg-12 mt-1 scrollable-div">
@@ -276,13 +240,21 @@
         </div>
 
 
-        <div class="card-body p-0 ">
+        <div class="card-body p-0 m-0">
           <div class="row  gx-1">
-            <div class="col-lg-8 ">
+            <div class="col-lg-4  mt-2">
+              <div class="input-group ">
+                <textarea class="form-control form-control-sm mt-n2 " placeholder="" id="floatingTextarea"
+                  rows="30"></textarea>
+
+              </div>
+            </div>
+
+            <div class="col-lg-8  ml-n2">
 
               <ag-grid-vue :columnDefs="columnDefs" :modules="modules" :rowData="rowData" :groupHeaders="true"
                 :defaultColDef="defaultColDef" @cellClicked="onCellClicked" :headerHeight="28" :rowHeight="35"
-                class="ag-theme-alpine" style="flex: 1 1 auto; height: 610px; " @grid-ready="onGridReady">
+                class="ag-theme-alpine" style="flex: 1 1 auto; height: 640px; " @grid-ready="onGridReady">
 
               </ag-grid-vue>
               <div class="nav text-sm " style="display:flex; justify-content: center; ">
@@ -299,15 +271,7 @@
             </div>
 
 
-            <div class="col-lg-4  ml-n2 mt-2">
-              <div class="input-group ">
-                <textarea class="form-control form-control-sm mt-n2 " placeholder="{앵커:  겨울철 생선인 대구의 계절이 돌아왔지만, 올해는 어획량이 급감했습니다.}
-{리포트}
-{수퍼:  거제 대구 어획량 급감/오늘(5)경남 거제 앞바다}" id="floatingTextarea" rows="29"></textarea>
 
-              </div>
-
-            </div>
           </div>
         </div>
 
@@ -400,4 +364,10 @@ export default {
 
 
 
-<style></style>
+<style>
+@media (max-width: 768px) {
+  .badge {
+    display: none;
+  }
+}
+</style>

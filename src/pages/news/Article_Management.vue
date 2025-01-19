@@ -5,7 +5,7 @@
 
         <div class="card-header aheader" style="height:90px; background-color: #828282; ">
           <div class="row text-sm">
-            <div class="col-lg-7 scrollable-div">
+            <div class="col-lg-8 scrollable-div">
               <div class="form-group">
                 <div class="row justify-content-start">
 
@@ -34,45 +34,34 @@
                   </div>
 
 
-                  <div class="col-6 ml-5 text-white">
+                  <div class="col-8 ml-5 text-white">
                     <div class="input-group">
                       <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button"
                         data-bs-toggle="dropdown" aria-expanded="false"
                         style="height:30px; color:white; border:1px solid white;">
                         전체
                       </button>&ensp;
-                      <div class="col-4">
+                      <div class="col-2">
                         <input type="date" class="form-control form-control-sm  datetimepicker-input "
                           data-target="#reservationdate" />
                       </div>~
-                      <div class="col-4">
+                      <div class="col-3">
                         <input type="date" class="form-control form-control-sm datetimepicker-input"
                           data-target="#reservationdate" />&ensp;
                       </div>
 
-
-
-                    </div>
-                  </div>
-
-                  <div class="col-3">
-                    <div class="input-group">
-
-                      <div class="row">
-                        <div class="col-6">
-                          <input type="text" class="form-control form-control-sm datetimepicker-input"
-                            data-target="#reservationdate" />
-                        </div>
-                        <div class="col-2">
-                          <button class="btn btn-info btn-sm mr-2 mb-2">
-                            검색
-                          </button>
-                        </div>
+                      <div class="col-2">
+                        <input type="text" class="form-control form-control-sm datetimepicker-input"
+                          data-target="#reservationdate" />
+                      </div>
+                      <div class="col-1">
+                        <button class="btn btn-info btn-sm mr-2 mb-2">
+                          검색
+                        </button>
                       </div>
                     </div>
+
                   </div>
-
-
                 </div>
               </div>
             </div>
@@ -86,74 +75,64 @@
                   <div class="col-2 text-white ">
                     <div class="input-group align-items-center">
                       구분&ensp;
-                      <div class="row">
-                        <div class="col-12">
-                          <select class="form-select form-select-sm" aria-label="Default select example">
-                            <option selected>전체</option>
 
-                          </select>
-                        </div>
-                      </div>
+                      <select class="form-select form-select-sm" aria-label="Default select example">
+                        <option selected>전체</option>
+
+                      </select>
+
                     </div>
                   </div>
                   <div class="col-2 text-white">
                     <div class="input-group align-items-center">
                       형식&ensp;
-                      <div class="row">
-                        <div class="col-12">
-                          <select class="form-select form-select-sm" aria-label="Default select example">
-                            <option selected>전체</option>
 
-                          </select>
-                        </div>
-                      </div>
+                      <select class="form-select form-select-sm" aria-label="Default select example">
+                        <option selected>전체</option>
+
+                      </select>
+
                     </div>
                   </div>
 
                   <div class="col-2 text-white">
                     <div class="input-group align-items-center">
                       부서&ensp;
-                      <div class="row">
-                        <div class="col-12">
-                          <select class="form-select  form-select-sm" aria-label="Default select example">
-                            <option selected>정치부</option>
 
-                          </select>
-                        </div>
-                      </div>
+                      <select class="form-select  form-select-sm" aria-label="Default select example">
+                        <option selected>정치부</option>
+
+                      </select>
+
                     </div>
                   </div>
 
                   <div class="col-2 text-white">
                     <div class="input-group align-items-center">
                       분야&ensp;
-                      <div class="row">
-                        <div class="col-12">
-                          <select class="form-select  form-select-sm" aria-label="Default select example">
-                            <option selected>정치</option>
 
-                          </select>
-                        </div>
-                      </div>
+                      <select class="form-select  form-select-sm" aria-label="Default select example">
+                        <option selected>정치</option>
+
+                      </select>
+
                     </div>
                   </div>
 
 
 
-                  <div class="col-3 text-white">
+                  <div class="col-2 text-white">
 
                     <div class="input-group align-items-center">
                       SNS&ensp;
-                      <div class="row">
-                        <div class="col-12">
-                          <select class="form-select  form-select-sm" aria-label="Default select example">
-                            <option selected>전체</option>
-                            <option>SNS게시</option>
-                            <option>SNS미게시</option>
 
-                          </select>
-                        </div>
-                      </div>
+                      <select class="form-select  form-select-sm" aria-label="Default select example">
+                        <option selected>전체</option>
+                        <option>SNS게시</option>
+                        <option>SNS미게시</option>
+
+                      </select>
+
                     </div>
                   </div>
 
