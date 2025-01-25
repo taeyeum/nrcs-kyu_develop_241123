@@ -235,6 +235,7 @@ export default {
     const menuItems = document.querySelectorAll('.menu-item');
     const menu = document.querySelector('.menu');
 
+
     menuItems.forEach(item => {
       item.addEventListener('click', () => {
         // 모든 메뉴 항목에서 active 클래스 제거
@@ -242,9 +243,13 @@ export default {
         // 클릭한 메뉴 항목에 active 클래스 추가
         item.classList.add('active');
         // 메뉴판 숨기기
-        menu.classList.add('hidden');
+        menu.classList.toggle('hidden');
       });
     });
+
+
+
+
 
     return {
       toggleMenu,
@@ -260,13 +265,7 @@ export default {
 
   },
   mounted() {
-    document.addEventListener('click', (event) => {
-      const navbarCollapse = document.getElementById('navbarSupportedContent');
-      if (!navbarCollapse.contains(event.target)) {
-        const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
-        bsCollapse;
-      }
-    });
+
   }
 
 
@@ -285,6 +284,7 @@ export default {
 
 }
 
+
 .dropdown {
   display: flex;
   justify-content: center;
@@ -293,6 +293,7 @@ export default {
 
 .dropdown-menu {
   background-color: #444242;
+
 
 }
 
@@ -306,6 +307,7 @@ export default {
 
 @media (max-width: 768px) {
 
+
   .navbar-collapse {
     position: fixed;
     top: 60px;
@@ -314,7 +316,7 @@ export default {
     width: 200px;
     height: 100vh;
     background-color: #444242;
-
+    display: block;
   }
 
 
@@ -333,14 +335,15 @@ export default {
 
   }
 
-  .navbar-nav {
+  .dropdown ul li.active {
+    display: none;
+  }
 
+
+  .navbar-nav {
     font-size: 14px;
   }
 
-  .navbar-nav.active {
-    left: 0;
-  }
 
   .nav-scroll {
     max-height: 200px;
@@ -349,6 +352,7 @@ export default {
     /* 세로 스크롤바 표시 */
 
   }
+
 
 }
 </style>

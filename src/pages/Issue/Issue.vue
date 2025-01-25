@@ -205,6 +205,10 @@ export default {
 
 
 <style>
+.ag-header-cell-label {
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .card {
     margin-top: 60px;
